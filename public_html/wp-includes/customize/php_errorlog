@@ -1,0 +1,24 @@
+[30-Jul-2020 15:02:36 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Control' not found in /home/orianaq0/public_html/wp-includes/customize/class-wp-customize-theme-control.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/orianaq0/public_html/wp-includes/customize/class-wp-customize-theme-control.php on line 17
+[30-Jul-2020 15:02:59 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Control' not found in /home/orianaq0/public_html/wp-includes/customize/class-wp-customize-theme-control.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/orianaq0/public_html/wp-includes/customize/class-wp-customize-theme-control.php on line 17
+[30-Jul-2020 15:03:04 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Control' not found in /home/orianaq0/public_html/wp-includes/customize/class-wp-customize-theme-control.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/orianaq0/public_html/wp-includes/customize/class-wp-customize-theme-control.php on line 17
+[31-Jul-2020 06:09:11 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Control' not found in /home/orianaq0/public_html/wp-includes/customize/class-wp-widget-form-customize-control.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/orianaq0/public_html/wp-includes/customize/class-wp-widget-form-customize-control.php on line 17
+[31-Jul-2020 06:09:38 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Control' not found in /home/orianaq0/public_html/wp-includes/customize/class-wp-widget-form-customize-control.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/orianaq0/public_html/wp-includes/customize/class-wp-widget-form-customize-control.php on line 17
+[31-Jul-2020 14:36:19 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Control' not found in /home/orianaq0/public_html/wp-includes/customize/class-wp-customize-theme-control.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/orianaq0/public_html/wp-includes/customize/class-wp-customize-theme-control.php on line 17

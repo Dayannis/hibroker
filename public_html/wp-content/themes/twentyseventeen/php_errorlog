@@ -1,0 +1,68 @@
+[24-May-2020 09:05:02 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/orianaq0/public_html/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/orianaq0/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[24-May-2020 09:05:32 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/orianaq0/public_html/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/orianaq0/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[24-May-2020 09:05:35 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/orianaq0/public_html/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/orianaq0/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[30-May-2020 20:32:39 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home/orianaq0/public_html/wp-content/themes/twentyseventeen/functions.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/orianaq0/public_html/wp-content/themes/twentyseventeen/functions.php on line 16
+[05-Jun-2020 03:31:13 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home/orianaq0/public_html/wp-content/themes/twentyseventeen/functions.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/orianaq0/public_html/wp-content/themes/twentyseventeen/functions.php on line 16
+[03-Jan-2021 03:59:52 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/orianaq0/public_html/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/orianaq0/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[07-Jan-2021 03:17:18 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/orianaq0/public_html/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/orianaq0/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[07-Jan-2021 05:33:59 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/orianaq0/public_html/wp-content/themes/twentyseventeen/index.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/orianaq0/public_html/wp-content/themes/twentyseventeen/index.php on line 18
+[02-Mar-2021 23:48:40 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/orianaq0/public_html/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/orianaq0/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[08-Apr-2021 02:09:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/customer/www/hi-broker.com/public_html/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/hi-broker.com/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[06-May-2021 03:44:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/customer/www/hi-broker.com/public_html/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/hi-broker.com/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[15-May-2021 19:02:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/customer/www/hi-broker.com/public_html/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/hi-broker.com/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[03-Oct-2021 02:01:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home/customer/www/hi-broker.com/public_html/wp-content/themes/twentyseventeen/functions.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/hi-broker.com/public_html/wp-content/themes/twentyseventeen/functions.php on line 16
+[19-Mar-2022 22:44:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/customer/www/hi-broker.com/public_html/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/hi-broker.com/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[29-Mar-2022 10:42:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_part() in /home/customer/www/hi-broker.com/public_html/wp-content/themes/twentyseventeen/footer.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/hi-broker.com/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[29-Mar-2022 10:43:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/customer/www/hi-broker.com/public_html/wp-content/themes/twentyseventeen/header.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/hi-broker.com/public_html/wp-content/themes/twentyseventeen/header.php on line 16
+[29-Mar-2022 13:38:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home/customer/www/hi-broker.com/public_html/wp-content/themes/twentyseventeen/functions.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/hi-broker.com/public_html/wp-content/themes/twentyseventeen/functions.php on line 16

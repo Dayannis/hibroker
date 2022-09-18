@@ -1,0 +1,787 @@
+0000.001 (0) Opened log file at time: Mon, 12 Sep 2022 12:16:05 +0000 on https://hi-broker.com
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.19 WP: 6.0.2 PHP: 7.4.30 (cgi-fcgi, Linux it41.siteground.eu 3.12.18-clouder0 #3 SMP PREEMPT Wed May 25 12:13:20 EEST 2022 x86_64) MySQL: 5.7.39-42-log (max packet size=33554432) WPLANG: es_ES Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 768M (used: 100.8M | 104M) multisite: N openssl: OpenSSL 1.1.1q  5 Jul 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 500888.5 MB
+0000.004 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.005 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.008 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1662391742, seconds_ago=593223)
+0000.010 (0) Set semaphore last lock (fd) time to 2022-09-12 12:16:05
+0000.010 (0) Semaphore lock (fd) complete
+0000.013 (0) Backup run: resumption=0, nonce=27a3da4a0d66, file_nonce=27a3da4a0d66 begun at=1662984965 (0s ago), job type=backup
+0000.014 (0) Scheduling a resumption (1) after 300 seconds (1662985265) in case this run gets aborted
+0000.022 (0) Checking if we have a zip executable available
+0000.023 (0) Testing: /usr/bin/zip
+0000.027 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.028 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.028 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.029 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.029 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.040 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.042 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.047 (0) Working binary zip found: /usr/bin/zip
+0000.048 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.049 (0) Creation of backups of directories: beginning
+0000.051 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0002.196 (0) Total entities for the zip file: 3448 directories, 15752 files (0 skipped as non-modified), 177.7 MB
+0002.209 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0002.215 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0002.220 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0002.224 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0002.229 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0002.234 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0002.239 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0002.245 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0002.251 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0002.257 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0002.258 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16.6 MB, 15752 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0003.675 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: size is now: 5.60 MB
+0003.681 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 1100 files added (on-disk size: 5734.2 KB)
+0003.687 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 1200 files added (on-disk size: 5734.2 KB)
+0003.691 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 1300 files added (on-disk size: 5734.2 KB)
+0003.696 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 1400 files added (on-disk size: 5734.2 KB)
+0003.700 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 1500 files added (on-disk size: 5734.2 KB)
+0003.705 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 1600 files added (on-disk size: 5734.2 KB)
+0003.710 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 1700 files added (on-disk size: 5734.2 KB)
+0003.714 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 1800 files added (on-disk size: 5734.2 KB)
+0003.718 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 1900 files added (on-disk size: 5734.2 KB)
+0003.727 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 2000 files added (on-disk size: 5734.2 KB)
+0003.728 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.1 MB, 15752 files batched, 1001 (2002) added so far); re-opening (prior size: 5734.2 KB)
+0004.733 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: size is now: 9.80 MB
+0004.740 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 2100 files added (on-disk size: 10025.2 KB)
+0004.745 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 2200 files added (on-disk size: 10025.2 KB)
+0004.749 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 2300 files added (on-disk size: 10025.2 KB)
+0004.753 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 2400 files added (on-disk size: 10025.2 KB)
+0004.757 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 2500 files added (on-disk size: 10025.2 KB)
+0004.762 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 2600 files added (on-disk size: 10025.2 KB)
+0004.765 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 2700 files added (on-disk size: 10025.2 KB)
+0004.769 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 2800 files added (on-disk size: 10025.2 KB)
+0004.773 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 2900 files added (on-disk size: 10025.2 KB)
+0004.777 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 3000 files added (on-disk size: 10025.2 KB)
+0004.778 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (11.1 MB, 15752 files batched, 1001 (3003) added so far); re-opening (prior size: 10025.2 KB)
+0005.683 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: size is now: 13.90 MB
+0005.690 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 3100 files added (on-disk size: 14260.5 KB)
+0005.696 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 3200 files added (on-disk size: 14260.5 KB)
+0005.701 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 3300 files added (on-disk size: 14260.5 KB)
+0005.705 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 3400 files added (on-disk size: 14260.5 KB)
+0005.710 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 3500 files added (on-disk size: 14260.5 KB)
+0005.716 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 3600 files added (on-disk size: 14260.5 KB)
+0005.721 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 3700 files added (on-disk size: 14260.5 KB)
+0005.727 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 3800 files added (on-disk size: 14260.5 KB)
+0005.732 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 3900 files added (on-disk size: 14260.5 KB)
+0005.737 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 4000 files added (on-disk size: 14260.5 KB)
+0005.738 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (18.8 MB, 15752 files batched, 1001 (4004) added so far); re-opening (prior size: 14260.5 KB)
+0006.975 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: size is now: 22.00 MB
+0006.982 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 4100 files added (on-disk size: 22495.9 KB)
+0006.987 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 4200 files added (on-disk size: 22495.9 KB)
+0006.993 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 4300 files added (on-disk size: 22495.9 KB)
+0006.999 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 4400 files added (on-disk size: 22495.9 KB)
+0007.004 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 4500 files added (on-disk size: 22495.9 KB)
+0007.009 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 4600 files added (on-disk size: 22495.9 KB)
+0007.014 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 4700 files added (on-disk size: 22495.9 KB)
+0007.019 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 4800 files added (on-disk size: 22495.9 KB)
+0007.025 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 4900 files added (on-disk size: 22495.9 KB)
+0007.032 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 5000 files added (on-disk size: 22495.9 KB)
+0007.034 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.3 MB, 15752 files batched, 1001 (5005) added so far); re-opening (prior size: 22495.9 KB)
+0008.067 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: size is now: 28.40 MB
+0008.074 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 5100 files added (on-disk size: 29055.4 KB)
+0008.078 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 5200 files added (on-disk size: 29055.4 KB)
+0008.082 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 5300 files added (on-disk size: 29055.4 KB)
+0008.086 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 5400 files added (on-disk size: 29055.4 KB)
+0008.090 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 5500 files added (on-disk size: 29055.4 KB)
+0008.094 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 5600 files added (on-disk size: 29055.4 KB)
+0008.099 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 5700 files added (on-disk size: 29055.4 KB)
+0008.106 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 5800 files added (on-disk size: 29055.4 KB)
+0008.113 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 5900 files added (on-disk size: 29055.4 KB)
+0008.119 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 6000 files added (on-disk size: 29055.4 KB)
+0008.121 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (1.9 MB, 15752 files batched, 1001 (6006) added so far); re-opening (prior size: 29055.4 KB)
+0008.680 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 6100 files added (on-disk size: 30051.3 KB)
+0008.685 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 6200 files added (on-disk size: 30051.3 KB)
+0008.688 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 6300 files added (on-disk size: 30051.3 KB)
+0008.693 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 6400 files added (on-disk size: 30051.3 KB)
+0008.697 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 6500 files added (on-disk size: 30051.3 KB)
+0008.701 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 6600 files added (on-disk size: 30051.3 KB)
+0008.705 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 6700 files added (on-disk size: 30051.3 KB)
+0008.711 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 6800 files added (on-disk size: 30051.3 KB)
+0008.715 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 6900 files added (on-disk size: 30051.3 KB)
+0008.720 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 7000 files added (on-disk size: 30051.3 KB)
+0008.724 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.4 MB, 15752 files batched, 1001 (7007) added so far); re-opening (prior size: 30051.3 KB)
+0009.517 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 7100 files added (on-disk size: 33166.6 KB)
+0009.523 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 7200 files added (on-disk size: 33166.6 KB)
+0009.530 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 7300 files added (on-disk size: 33166.6 KB)
+0009.539 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 7400 files added (on-disk size: 33166.6 KB)
+0009.547 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 7500 files added (on-disk size: 33166.6 KB)
+0009.556 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 7600 files added (on-disk size: 33166.6 KB)
+0009.566 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 7700 files added (on-disk size: 33166.6 KB)
+0009.574 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 7800 files added (on-disk size: 33166.6 KB)
+0009.580 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 7900 files added (on-disk size: 33166.6 KB)
+0009.588 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 8000 files added (on-disk size: 33166.6 KB)
+0009.589 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.7 MB, 15752 files batched, 1001 (8008) added so far); re-opening (prior size: 33166.6 KB)
+0010.606 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 8100 files added (on-disk size: 35100.8 KB)
+0010.612 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 8200 files added (on-disk size: 35100.8 KB)
+0010.617 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 8300 files added (on-disk size: 35100.8 KB)
+0010.622 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 8400 files added (on-disk size: 35100.8 KB)
+0010.629 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 8500 files added (on-disk size: 35100.8 KB)
+0010.636 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 8600 files added (on-disk size: 35100.8 KB)
+0010.642 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 8700 files added (on-disk size: 35100.8 KB)
+0010.648 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 8800 files added (on-disk size: 35100.8 KB)
+0010.653 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 8900 files added (on-disk size: 35100.8 KB)
+0010.657 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 9000 files added (on-disk size: 35100.8 KB)
+0010.659 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.9 MB, 15752 files batched, 1001 (9009) added so far); re-opening (prior size: 35100.8 KB)
+0011.691 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 9100 files added (on-disk size: 37009.5 KB)
+0011.696 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 9200 files added (on-disk size: 37009.5 KB)
+0011.701 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 9300 files added (on-disk size: 37009.5 KB)
+0011.706 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 9400 files added (on-disk size: 37009.5 KB)
+0011.712 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 9500 files added (on-disk size: 37009.5 KB)
+0011.716 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 9600 files added (on-disk size: 37009.5 KB)
+0011.723 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 9700 files added (on-disk size: 37009.5 KB)
+0011.730 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 9800 files added (on-disk size: 37009.5 KB)
+0011.737 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 9900 files added (on-disk size: 37009.5 KB)
+0011.744 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 10000 files added (on-disk size: 37009.5 KB)
+0011.746 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.1 MB, 15752 files batched, 1001 (10010) added so far); re-opening (prior size: 37009.5 KB)
+0012.668 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 10100 files added (on-disk size: 40360 KB)
+0012.676 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 10200 files added (on-disk size: 40360 KB)
+0012.683 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 10300 files added (on-disk size: 40360 KB)
+0012.689 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 10400 files added (on-disk size: 40360 KB)
+0012.695 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 10500 files added (on-disk size: 40360 KB)
+0012.703 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 10600 files added (on-disk size: 40360 KB)
+0012.711 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 10700 files added (on-disk size: 40360 KB)
+0012.717 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 10800 files added (on-disk size: 40360 KB)
+0012.725 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 10900 files added (on-disk size: 40360 KB)
+0012.732 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 11000 files added (on-disk size: 40360 KB)
+0012.734 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (2.7 MB, 15752 files batched, 1001 (11011) added so far); re-opening (prior size: 40360 KB)
+0013.560 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 11100 files added (on-disk size: 41711.5 KB)
+0013.567 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 11200 files added (on-disk size: 41711.5 KB)
+0013.574 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 11300 files added (on-disk size: 41711.5 KB)
+0013.580 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 11400 files added (on-disk size: 41711.5 KB)
+0013.584 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 11500 files added (on-disk size: 41711.5 KB)
+0013.590 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 11600 files added (on-disk size: 41711.5 KB)
+0013.596 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 11700 files added (on-disk size: 41711.5 KB)
+0013.602 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 11800 files added (on-disk size: 41711.5 KB)
+0013.608 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 11900 files added (on-disk size: 41711.5 KB)
+0013.614 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 12000 files added (on-disk size: 41711.5 KB)
+0013.615 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.2 MB, 15752 files batched, 1001 (12012) added so far); re-opening (prior size: 41711.5 KB)
+0014.540 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 12100 files added (on-disk size: 44184.2 KB)
+0014.545 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 12200 files added (on-disk size: 44184.2 KB)
+0014.551 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 12300 files added (on-disk size: 44184.2 KB)
+0014.557 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 12400 files added (on-disk size: 44184.2 KB)
+0014.564 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 12500 files added (on-disk size: 44184.2 KB)
+0014.570 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 12600 files added (on-disk size: 44184.2 KB)
+0014.575 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 12700 files added (on-disk size: 44184.2 KB)
+0014.581 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 12800 files added (on-disk size: 44184.2 KB)
+0014.586 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 12900 files added (on-disk size: 44184.2 KB)
+0014.591 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 13000 files added (on-disk size: 44184.2 KB)
+0014.592 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.4 MB, 15752 files batched, 1001 (13013) added so far); re-opening (prior size: 44184.2 KB)
+0015.445 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 13100 files added (on-disk size: 46265.7 KB)
+0015.453 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 13200 files added (on-disk size: 46265.7 KB)
+0015.460 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 13300 files added (on-disk size: 46265.7 KB)
+0015.466 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 13400 files added (on-disk size: 46265.7 KB)
+0015.473 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 13500 files added (on-disk size: 46265.7 KB)
+0015.479 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 13600 files added (on-disk size: 46265.7 KB)
+0015.486 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 13700 files added (on-disk size: 46265.7 KB)
+0015.492 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 13800 files added (on-disk size: 46265.7 KB)
+0015.499 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 13900 files added (on-disk size: 46265.7 KB)
+0015.506 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 14000 files added (on-disk size: 46265.7 KB)
+0015.508 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.6 MB, 15752 files batched, 1001 (14014) added so far); re-opening (prior size: 46265.7 KB)
+0016.682 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 14100 files added (on-disk size: 50905.1 KB)
+0016.687 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 14200 files added (on-disk size: 50905.1 KB)
+0016.692 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 14300 files added (on-disk size: 50905.1 KB)
+0016.698 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 14400 files added (on-disk size: 50905.1 KB)
+0016.705 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 14500 files added (on-disk size: 50905.1 KB)
+0016.711 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 14600 files added (on-disk size: 50905.1 KB)
+0016.718 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 14700 files added (on-disk size: 50905.1 KB)
+0016.725 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 14800 files added (on-disk size: 50905.1 KB)
+0016.732 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 14900 files added (on-disk size: 50905.1 KB)
+0016.740 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 15000 files added (on-disk size: 50905.1 KB)
+0016.742 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.6 MB, 15752 files batched, 1001 (15015) added so far); re-opening (prior size: 50905.1 KB)
+0017.785 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 15100 files added (on-disk size: 53425.2 KB)
+0017.791 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 15200 files added (on-disk size: 53425.2 KB)
+0017.798 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 15300 files added (on-disk size: 53425.2 KB)
+0017.804 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 15400 files added (on-disk size: 53425.2 KB)
+0017.811 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 15500 files added (on-disk size: 53425.2 KB)
+0017.818 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 15600 files added (on-disk size: 53425.2 KB)
+0017.824 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.tmp: 15700 files added (on-disk size: 53425.2 KB)
+0019.673 (0) Creating zip file manifest (backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.list-temp.tmp)
+0019.754 (0) Successfully created zip file manifest (size: 1383946)
+0020.385 (0) Created plugins zip (0) - 61222.3 KB in 20.3 s (3011.1 KB/s) (sha1: 38cd0c3be717279352a2700d859d6f9a0d96fba4, sha256: 70e48b25e57e3541aacd2bb7ae8a1937cb4ca056f657a460523c7e498da1e2a6)
+0020.387 (0) Beginning creation of dump of themes (split every: 400 MB)
+0020.488 (0) Total entities for the zip file: 191 directories, 923 files (0 skipped as non-modified), 39.7 MB
+0020.494 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0020.500 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0020.506 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0020.507 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (27.4 MB, 923 files batched, 308 (308) added so far); re-opening (prior size: 0 KB)
+0021.097 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-themes.zip.tmp: size is now: 24.60 MB
+0021.099 (0) A useful amount of data was added after this amount of zip processing: 1.5 s (normalised: 1.4 s, rate: 18485.9 KB/s)
+0021.101 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.5173020362854, normalised_time=1.3848405269078, max_time=21.099229812622, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0021.107 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-themes.zip.tmp: 400 files added (on-disk size: 25216.1 KB)
+0021.112 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-themes.zip.tmp: 500 files added (on-disk size: 25216.1 KB)
+0021.118 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-themes.zip.tmp: 600 files added (on-disk size: 25216.1 KB)
+0021.124 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-themes.zip.tmp: 700 files added (on-disk size: 25216.1 KB)
+0021.130 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-themes.zip.tmp: 800 files added (on-disk size: 25216.1 KB)
+0021.135 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-themes.zip.tmp: 900 files added (on-disk size: 25216.1 KB)
+0021.832 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-themes.zip.tmp: size is now: 32.40 MB
+0021.842 (0) Creating zip file manifest (backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-themes.zip.list-temp.tmp)
+0021.847 (0) Successfully created zip file manifest (size: 61112)
+0022.216 (0) Created themes zip (0) - 33216.1 KB in 1.8 s (18181.6 KB/s) (sha1: 78e10a8acefb15e9f84d306c101fe9765bc19db5, sha256: 6eae55c75d61d284093bd206cf78968735a123705d917f062fa164cb97a7fc27)
+0022.219 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0022.219 (0) Looking for candidates to backup in: /home/customer/www/hi-broker.com/public_html/wp-content/uploads
+0022.220 (0) finding files: 2022: adding to list (1)
+0022.221 (0) finding files: js_composer: adding to list (2)
+0022.221 (0) finding files: woocommerce-placeholder-1024x1024.png: adding to list (3)
+0022.222 (0) finding files: 2021: adding to list (4)
+0022.222 (0) finding files: woocommerce-placeholder-90x90.png: adding to list (5)
+0022.223 (0) finding files: GeoIPv6.dat: adding to list (6)
+0022.223 (0) finding files: 2020: adding to list (7)
+0022.224 (0) finding files: woocommerce-placeholder-300x375.png: adding to list (8)
+0022.224 (0) finding files: GeoIP.dat: adding to list (9)
+0022.224 (0) finding files: siteground-optimizer-assets: adding to list (10)
+0022.225 (0) finding files: woocommerce-placeholder-850x408.png: adding to list (11)
+0022.225 (0) finding files: woocommerce-placeholder-486x261.png: adding to list (12)
+0022.226 (0) finding files: wpcf7_uploads: adding to list (13)
+0022.226 (0) finding files: elementor: adding to list (14)
+0022.226 (0) finding files: revslider: adding to list (15)
+0022.227 (0) finding files: woocommerce-placeholder-768x768.png: adding to list (16)
+0022.227 (0) finding files: woocommerce-placeholder-370x370.png: adding to list (17)
+0022.228 (0) finding files: woocommerce-placeholder-325x242.png: adding to list (18)
+0022.228 (0) finding files: GeoLite2-Country.mmdb: adding to list (19)
+0022.229 (0) finding files: woocommerce-placeholder-1200x658.png: adding to list (20)
+0022.229 (0) finding files: 2019: adding to list (21)
+0022.230 (0) finding files: woocommerce-placeholder.png: adding to list (22)
+0022.231 (0) finding files: wc-logs: adding to list (23)
+0022.231 (0) finding files: 2017: adding to list (24)
+0022.232 (0) finding files: wp-file-manager-pro: adding to list (25)
+0022.232 (0) finding files: wp-migrate-db: adding to list (26)
+0022.233 (0) finding files: woocommerce-placeholder-370x208.png: adding to list (27)
+0022.233 (0) finding files: essential-grid: adding to list (28)
+0022.234 (0) finding files: woocommerce_uploads: adding to list (29)
+0022.234 (0) finding files: woocommerce-placeholder-630x384.png: adding to list (30)
+0022.235 (0) finding files: woocommerce-placeholder-760x760.png: adding to list (31)
+0022.235 (0) finding files: woocommerce-placeholder-150x150.png: adding to list (32)
+0022.236 (0) finding files: woocommerce-placeholder-300x300.png: adding to list (33)
+0022.237 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0022.724 (0) Total entities for the zip file: 616 directories, 4087 files (0 skipped as non-modified), 171.8 MB
+0022.731 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0022.737 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0022.743 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0022.749 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0022.755 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0022.760 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: 600 files added (on-disk size: 0 KB)
+0022.766 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: 700 files added (on-disk size: 0 KB)
+0022.772 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: 800 files added (on-disk size: 0 KB)
+0022.778 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: 900 files added (on-disk size: 0 KB)
+0022.784 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0022.785 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (23.3 MB, 4087 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0023.881 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: size is now: 22.20 MB
+0023.886 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: 1100 files added (on-disk size: 22707.5 KB)
+0023.890 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: 1200 files added (on-disk size: 22707.5 KB)
+0023.894 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: 1300 files added (on-disk size: 22707.5 KB)
+0023.898 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: 1400 files added (on-disk size: 22707.5 KB)
+0023.902 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: 1500 files added (on-disk size: 22707.5 KB)
+0023.905 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: 1600 files added (on-disk size: 22707.5 KB)
+0023.909 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: 1700 files added (on-disk size: 22707.5 KB)
+0023.913 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: 1800 files added (on-disk size: 22707.5 KB)
+0023.917 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: 1900 files added (on-disk size: 22707.5 KB)
+0023.922 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: 2000 files added (on-disk size: 22707.5 KB)
+0023.923 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (33.3 MB, 4087 files batched, 1001 (2002) added so far); re-opening (prior size: 22707.5 KB)
+0025.204 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: size is now: 54.00 MB
+0025.211 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: 2100 files added (on-disk size: 55283 KB)
+0025.216 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: 2200 files added (on-disk size: 55283 KB)
+0025.221 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: 2300 files added (on-disk size: 55283 KB)
+0025.228 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: 2400 files added (on-disk size: 55283 KB)
+0025.234 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: 2500 files added (on-disk size: 55283 KB)
+0025.241 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: 2600 files added (on-disk size: 55283 KB)
+0025.247 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: 2700 files added (on-disk size: 55283 KB)
+0025.253 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: 2800 files added (on-disk size: 55283 KB)
+0025.260 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: 2900 files added (on-disk size: 55283 KB)
+0025.266 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: 3000 files added (on-disk size: 55283 KB)
+0025.267 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (64.2 MB, 4087 files batched, 1001 (3003) added so far); re-opening (prior size: 55283 KB)
+0026.649 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: size is now: 118.40 MB
+0026.656 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: 3100 files added (on-disk size: 121270.6 KB)
+0026.662 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: 3200 files added (on-disk size: 121270.6 KB)
+0026.669 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: 3300 files added (on-disk size: 121270.6 KB)
+0026.676 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: 3400 files added (on-disk size: 121270.6 KB)
+0026.683 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: 3500 files added (on-disk size: 121270.6 KB)
+0026.689 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: 3600 files added (on-disk size: 121270.6 KB)
+0026.694 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: 3700 files added (on-disk size: 121270.6 KB)
+0026.701 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: 3800 files added (on-disk size: 121270.6 KB)
+0026.708 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: 3900 files added (on-disk size: 121270.6 KB)
+0026.715 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: 4000 files added (on-disk size: 121270.6 KB)
+0026.716 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (47.6 MB, 4087 files batched, 1001 (4004) added so far); re-opening (prior size: 121270.6 KB)
+0028.271 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.tmp: size is now: 166.20 MB
+0028.999 (0) Creating zip file manifest (backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.list-temp.tmp)
+0029.019 (0) Successfully created zip file manifest (size: 243654)
+0030.844 (0) Created uploads zip (0) - 173661.2 KB in 8.6 s (20181.5 KB/s) (sha1: a9dd23eb251f1dac04845708e57b3f20c991993e, sha256: 255e8b14aeb624f7e4e667b4c0cbeb225c180d8b8262c7b416c5a9ed083f2a63)
+0030.846 (0) Beginning backup of other directories found in the content directory (index: 0)
+0030.847 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0030.848 (0) Looking for candidates to backup in: /home/customer/www/hi-broker.com/public_html/wp-content
+0030.848 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0030.849 (0) finding files: mu-plugins: adding to list (1)
+0030.849 (0) finding files: w3tc-config: adding to list (2)
+0030.850 (0) finding files: cache: skipping: excluded by options
+0030.850 (0) finding files: themes: skipping: this is the themes directory
+0030.851 (0) finding files: index.php: adding to list (3)
+0030.851 (0) finding files: plugins: skipping: this is the plugins directory
+0030.852 (0) finding files: languages: adding to list (4)
+0030.853 (0) finding files: updraft: skipping: this is the updraft directory
+0030.853 (0) finding files: sgo-config.php: adding to list (5)
+0030.853 (0) finding files: advanced-cache.php: adding to list (6)
+0030.854 (0) finding files: uploads: skipping: this is the uploads directory
+0030.854 (0) finding files: wp-cache-config.php: adding to list (7)
+0030.855 (0) finding files: upgrade: skipping: excluded by options
+0030.868 (0) Total entities for the zip file: 5 directories, 390 files (0 skipped as non-modified), 8.7 MB
+0030.872 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0030.876 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0030.881 (0) Zip: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0031.492 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-others.zip.tmp: size is now: 2.60 MB
+0031.498 (0) Creating zip file manifest (backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-others.zip.list-temp.tmp)
+0031.501 (0) Successfully created zip file manifest (size: 29566)
+0031.536 (0) Created others zip (0) - 2625.6 KB in 0.7 s (3863.2 KB/s) (sha1: 6a9f1d354fe2b9b1931204c2652fc2878012b913, sha256: 05dc6d598a4e581427d10e2c46411f368e56ad5c7b1a558837654057770f9fcd)
+0031.539 (0) Saving backup status to database (elements: 8)
+0031.542 (0) Beginning creation of database dump (WordPress DB)
+0031.542 (0) SQL compatibility mode is: NO_ENGINE_SUBSTITUTION
+0031.544 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0031.558 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1540 bytes total)
+0031.559 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0031.628 (0) Table wp_options: Total expected rows (via COUNT): 715
+0031.744 (0) Table wp_options: Rows added in this batch (next record: 379746): 711 (uncompressed bytes in this segment=3966065) in 0.18 seconds
+0031.749 (0) Table wp_options: finishing file(s) (2, 365.3 KB)
+0031.755 (0) Table wp_users: Total expected rows (via COUNT): 2
+0031.756 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.759 (0) Table wp_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1514) in 0.01 seconds
+0031.762 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0031.767 (0) Table wp_usermeta: Total expected rows (via COUNT): 111
+0031.768 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.771 (0) Table wp_usermeta: Rows added in this batch (next record: 198): 111 (uncompressed bytes in this segment=8455) in 0.01 seconds
+0031.774 (0) Table wp_usermeta: finishing file(s) (2, 2.9 KB)
+0031.779 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 31
+0031.780 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.782 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 53): 31 (uncompressed bytes in this segment=16370) in 0.01 seconds
+0031.785 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1.9 KB)
+0031.789 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0031.790 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=633) in 0.00 seconds
+0031.792 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0031.796 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 4
+0031.797 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.799 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=785) in 0.00 seconds
+0031.801 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.5 KB)
+0031.807 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 91
+0031.807 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.811 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 157): 91 (uncompressed bytes in this segment=8620) in 0.01 seconds
+0031.814 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 1.4 KB)
+0031.820 (0) Table wp_commentmeta: Total expected rows (via COUNT): 20
+0031.820 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.823 (0) Table wp_commentmeta: Rows added in this batch (next record: 615): 20 (uncompressed bytes in this segment=1781) in 0.01 seconds
+0031.826 (0) Table wp_commentmeta: finishing file(s) (2, 0.6 KB)
+0031.831 (0) Table wp_comments: Total expected rows (via COUNT): 20
+0031.831 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.834 (0) Table wp_comments: Rows added in this batch (next record: 133): 20 (uncompressed bytes in this segment=12324) in 0.01 seconds
+0031.836 (0) Table wp_comments: finishing file(s) (2, 4.2 KB)
+0031.841 (0) Table wp_links: Total expected rows (via COUNT): 0
+0031.843 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1310) in 0.00 seconds
+0031.845 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0031.871 (0) Table wp_postmeta: Total expected rows (approximate): 4774
+0031.909 (0) Table wp_postmeta: Rows added in this batch (next record: 7371): 4714 (uncompressed bytes in this segment=814619) in 0.06 seconds
+0031.913 (0) Table wp_postmeta: finishing file(s) (2, 76.2 KB)
+0032.018 (0) Table wp_posts: Total expected rows (via COUNT): 1057
+0032.078 (0) Table wp_posts: Rows added in this batch (next record: 2081): 1057 (uncompressed bytes in this segment=3034406) in 0.16 seconds
+0032.081 (0) Table wp_posts: finishing file(s) (2, 139.3 KB)
+0032.084 (0) Table wp_term_relationships: Total expected rows (approximate): 146
+0032.086 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 146 (uncompressed bytes in this segment=2867) in 0.00 seconds
+0032.088 (0) Table wp_term_relationships: finishing file(s) (2, 0.8 KB)
+0032.093 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 69
+0032.094 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0032.096 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 70): 69 (uncompressed bytes in this segment=3485) in 0.01 seconds
+0032.099 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.9 KB)
+0032.103 (0) Table wp_termmeta: Total expected rows (via COUNT): 8
+0032.104 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0032.106 (0) Table wp_termmeta: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=981) in 0.00 seconds
+0032.108 (0) Table wp_termmeta: finishing file(s) (2, 0.5 KB)
+0032.112 (0) Table wp_terms: Total expected rows (via COUNT): 69
+0032.113 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0032.115 (0) Table wp_terms: Rows added in this batch (next record: 70): 69 (uncompressed bytes in this segment=3593) in 0.00 seconds
+0032.117 (0) Table wp_terms: finishing file(s) (2, 1.4 KB)
+0032.121 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 7
+0032.124 (0) Table wp_wc_category_lookup: Rows added in this batch (next record: 1000): 7 (uncompressed bytes in this segment=655) in 0.00 seconds
+0032.127 (0) Table wp_wc_category_lookup: finishing file(s) (2, 0.4 KB)
+0032.134 (0) Table wp_wc_product_meta_lookup: Total expected rows (via COUNT): 0
+0032.136 (0) Table wp_wc_product_meta_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1361) in 0.01 seconds
+0032.138 (0) Table wp_wc_product_meta_lookup: finishing file(s) (2, 0.5 KB)
+0032.142 (0) Table wp_wc_reserved_stock: Total expected rows (approximate): 0
+0032.144 (0) Table wp_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=665) in 0.00 seconds
+0032.147 (0) Table wp_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0032.151 (0) Table wp_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0032.151 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0032.153 (0) Table wp_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=814) in 0.00 seconds
+0032.156 (0) Table wp_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0032.163 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (via COUNT): 0
+0032.165 (0) Table wp_woocommerce_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=771) in 0.01 seconds
+0032.169 (0) Table wp_woocommerce_order_itemmeta: finishing file(s) (2, 0.4 KB)
+0032.176 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0032.177 (0) Table wp_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=798) in 0.01 seconds
+0032.180 (0) Table wp_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0032.181 (0) Skipping table (lacks our prefix (wp_)): agente
+0032.181 (0) Skipping table (lacks our prefix (wp_)): beneficiario
+0032.181 (0) Skipping table (lacks our prefix (wp_)): categoria
+0032.182 (0) Skipping table (lacks our prefix (wp_)): cobertura
+0032.182 (0) Skipping table (lacks our prefix (wp_)): cotizacion
+0032.183 (0) Skipping table (lacks our prefix (wp_)): empresa
+0032.183 (0) Skipping table (lacks our prefix (wp_)): empresa_producto
+0032.184 (0) Skipping table (lacks our prefix (wp_)): estatus_titular
+0032.184 (0) Skipping table (lacks our prefix (wp_)): pais
+0032.185 (0) Skipping table (lacks our prefix (wp_)): parentezco
+0032.185 (0) Skipping table (lacks our prefix (wp_)): plan
+0032.186 (0) Skipping table (lacks our prefix (wp_)): producto
+0032.186 (0) Skipping table (lacks our prefix (wp_)): producto_afiliado
+0032.186 (0) Skipping table (lacks our prefix (wp_)): producto_edad
+0032.187 (0) Skipping table (lacks our prefix (wp_)): producto_plan
+0032.187 (0) Skipping table (lacks our prefix (wp_)): sexo
+0032.188 (0) Skipping table (lacks our prefix (wp_)): titular
+0032.188 (0) Skipping table (lacks our prefix (wp_)): titular_beneficiario
+0032.188 (0) Skipping table (lacks our prefix (wp_)): titular_producto
+0032.194 (0) Table wp_eg_grids: Total expected rows (via COUNT): 3
+0032.194 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0032.197 (0) Table wp_eg_grids: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=22982) in 0.01 seconds
+0032.200 (0) Table wp_eg_grids: finishing file(s) (2, 2.6 KB)
+0032.205 (0) Table wp_eg_item_elements: Total expected rows (via COUNT): 0
+0032.207 (0) Table wp_eg_item_elements: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=674) in 0.00 seconds
+0032.209 (0) Table wp_eg_item_elements: finishing file(s) (2, 0.4 KB)
+0032.216 (0) Table wp_eg_item_skins: Total expected rows (via COUNT): 112
+0032.217 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0032.302 (0) Table wp_eg_item_skins: Rows added in this batch (next record: 112): 112 (uncompressed bytes in this segment=1354905) in 0.09 seconds
+0032.305 (0) Table wp_eg_item_skins: finishing file(s) (2, 46.2 KB)
+0032.310 (0) Table wp_eg_navigation_skins: Total expected rows (via COUNT): 24
+0032.311 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0032.318 (0) Table wp_eg_navigation_skins: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=96145) in 0.01 seconds
+0032.321 (0) Table wp_eg_navigation_skins: finishing file(s) (2, 8 KB)
+0032.326 (0) Table wp_gs_logo_slider: Total expected rows (via COUNT): 0
+0032.327 (0) Table wp_gs_logo_slider: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=704) in 0.00 seconds
+0032.331 (0) Table wp_gs_logo_slider: finishing file(s) (2, 0.4 KB)
+0032.342 (0) Table wp_revslider_css: Total expected rows (via COUNT): 112
+0032.343 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0032.349 (0) Table wp_revslider_css: Rows added in this batch (next record: 112): 112 (uncompressed bytes in this segment=93189) in 0.01 seconds
+0032.353 (0) Table wp_revslider_css: finishing file(s) (2, 5.1 KB)
+0032.358 (0) Table wp_revslider_layer_animations: Total expected rows (via COUNT): 0
+0032.359 (0) Table wp_revslider_layer_animations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=538) in 0.00 seconds
+0032.362 (0) Table wp_revslider_layer_animations: finishing file(s) (2, 0.3 KB)
+0032.368 (0) Table wp_revslider_navigations: Total expected rows (via COUNT): 0
+0032.369 (0) Table wp_revslider_navigations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=583) in 0.00 seconds
+0032.373 (0) Table wp_revslider_navigations: finishing file(s) (2, 0.3 KB)
+0032.382 (0) Table wp_revslider_sliders: Total expected rows (via COUNT): 4
+0032.383 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0032.386 (0) Table wp_revslider_sliders: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=45039) in 0.01 seconds
+0032.389 (0) Table wp_revslider_sliders: finishing file(s) (2, 4 KB)
+0032.403 (0) Table wp_revslider_slides: Total expected rows (via COUNT): 11
+0032.403 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0032.407 (0) Table wp_revslider_slides: Rows added in this batch (next record: 11): 11 (uncompressed bytes in this segment=201933) in 0.02 seconds
+0032.411 (0) Table wp_revslider_slides: finishing file(s) (2, 7.8 KB)
+0032.417 (0) Table wp_revslider_static_slides: Total expected rows (via COUNT): 3
+0032.417 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0032.418 (0) Table wp_revslider_static_slides: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=7138) in 0.01 seconds
+0032.421 (0) Table wp_revslider_static_slides: finishing file(s) (2, 2.2 KB)
+0032.426 (0) Table wp_statistics_exclusions: Total expected rows (via COUNT): 0
+0032.428 (0) Table wp_statistics_exclusions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=577) in 0.00 seconds
+0032.431 (0) Table wp_statistics_exclusions: finishing file(s) (2, 0.3 KB)
+0032.441 (0) Table wp_statistics_historical: Total expected rows (via COUNT): 0
+0032.442 (0) Table wp_statistics_historical: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=662) in 0.01 seconds
+0032.445 (0) Table wp_statistics_historical: finishing file(s) (2, 0.4 KB)
+0032.451 (0) Table wp_statistics_pages: Total expected rows (via COUNT): 30
+0032.451 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0032.454 (0) Table wp_statistics_pages: Rows added in this batch (next record: 30): 30 (uncompressed bytes in this segment=2539) in 0.01 seconds
+0032.456 (0) Table wp_statistics_pages: finishing file(s) (2, 0.9 KB)
+0032.461 (0) Table wp_statistics_search: Total expected rows (via COUNT): 2
+0032.462 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0032.463 (0) Table wp_statistics_search: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=847) in 0.00 seconds
+0032.466 (0) Table wp_statistics_search: finishing file(s) (2, 0.4 KB)
+0032.471 (0) Table wp_statistics_useronline: Total expected rows (via COUNT): 0
+0032.473 (0) Table wp_statistics_useronline: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=834) in 0.00 seconds
+0032.476 (0) Table wp_statistics_useronline: finishing file(s) (2, 0.4 KB)
+0032.482 (0) Table wp_statistics_visit: Total expected rows (via COUNT): 6
+0032.483 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0032.485 (0) Table wp_statistics_visit: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=881) in 0.01 seconds
+0032.487 (0) Table wp_statistics_visit: finishing file(s) (2, 0.4 KB)
+0032.492 (0) Table wp_statistics_visitor: Total expected rows (via COUNT): 38
+0032.493 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0032.495 (0) Table wp_statistics_visitor: Rows added in this batch (next record: 38): 38 (uncompressed bytes in this segment=5301) in 0.01 seconds
+0032.498 (0) Table wp_statistics_visitor: finishing file(s) (2, 1.3 KB)
+0032.502 (0) Table wp_wc_admin_note_actions: Total expected rows (via COUNT): 105
+0032.502 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0032.506 (0) Table wp_wc_admin_note_actions: Rows added in this batch (next record: 20853): 105 (uncompressed bytes in this segment=19127) in 0.01 seconds
+0032.510 (0) Table wp_wc_admin_note_actions: finishing file(s) (2, 3.9 KB)
+0032.514 (0) Table wp_wc_admin_notes: Total expected rows (via COUNT): 94
+0032.515 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0032.520 (0) Table wp_wc_admin_notes: Rows added in this batch (next record: 99): 94 (uncompressed bytes in this segment=46865) in 0.01 seconds
+0032.524 (0) Table wp_wc_admin_notes: finishing file(s) (2, 11.6 KB)
+0032.529 (0) Table wp_wc_customer_lookup: Total expected rows (via COUNT): 0
+0032.531 (0) Table wp_wc_customer_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1266) in 0.00 seconds
+0032.534 (0) Table wp_wc_customer_lookup: finishing file(s) (2, 0.5 KB)
+0032.539 (0) Table wp_wc_download_log: Total expected rows (via COUNT): 0
+0032.541 (0) Table wp_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=926) in 0.00 seconds
+0032.544 (0) Table wp_wc_download_log: finishing file(s) (2, 0.5 KB)
+0032.548 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0032.550 (0) Table wp_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=717) in 0.00 seconds
+0032.553 (0) Table wp_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0032.559 (0) Table wp_wc_order_product_lookup: Total expected rows (via COUNT): 0
+0032.560 (0) Table wp_wc_order_product_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1227) in 0.00 seconds
+0032.563 (0) Table wp_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0032.569 (0) Table wp_wc_order_stats: Total expected rows (via COUNT): 0
+0032.571 (0) Table wp_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1122) in 0.00 seconds
+0032.573 (0) Table wp_wc_order_stats: finishing file(s) (2, 0.5 KB)
+0032.577 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 0
+0032.585 (0) Table wp_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=799) in 0.01 seconds
+0032.588 (0) Table wp_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0032.593 (0) Table wp_wc_product_attributes_lookup: Total expected rows (approximate): 12
+0032.595 (0) Table wp_wc_product_attributes_lookup: Rows added in this batch (next record: 1000): 12 (uncompressed bytes in this segment=1336) in 0.00 seconds
+0032.599 (0) Table wp_wc_product_attributes_lookup: finishing file(s) (2, 0.5 KB)
+0032.604 (0) Table wp_wc_product_download_directories: Total expected rows (via COUNT): 0
+0032.605 (0) Table wp_wc_product_download_directories: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=681) in 0.00 seconds
+0032.609 (0) Table wp_wc_product_download_directories: finishing file(s) (2, 0.4 KB)
+0032.614 (0) Table wp_wc_rate_limits: Total expected rows (via COUNT): 0
+0032.615 (0) Table wp_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=700) in 0.00 seconds
+0032.618 (0) Table wp_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0032.623 (0) Table wp_wc_webhooks: Total expected rows (via COUNT): 0
+0032.625 (0) Table wp_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1230) in 0.00 seconds
+0032.628 (0) Table wp_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0032.637 (0) Table wp_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0032.638 (0) Table wp_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1046) in 0.01 seconds
+0032.642 (0) Table wp_woocommerce_api_keys: finishing file(s) (2, 0.5 KB)
+0032.647 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 1
+0032.648 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0032.651 (0) Table wp_woocommerce_attribute_taxonomies: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1085) in 0.01 seconds
+0032.654 (0) Table wp_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.5 KB)
+0032.660 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0032.663 (0) Table wp_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1538) in 0.01 seconds
+0032.668 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0032.676 (0) Table wp_woocommerce_log: Total expected rows (via COUNT): 0
+0032.678 (0) Table wp_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=722) in 0.01 seconds
+0032.681 (0) Table wp_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0032.686 (0) Table wp_woocommerce_order_items: Total expected rows (via COUNT): 0
+0032.689 (0) Table wp_woocommerce_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=739) in 0.00 seconds
+0032.692 (0) Table wp_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+0032.698 (0) Table wp_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0032.700 (0) Table wp_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=841) in 0.00 seconds
+0032.703 (0) Table wp_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0032.710 (0) Table wp_woocommerce_sessions: Total expected rows (via COUNT): 0
+0032.712 (0) Table wp_woocommerce_sessions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=734) in 0.01 seconds
+0032.716 (0) Table wp_woocommerce_sessions: finishing file(s) (2, 0.4 KB)
+0032.722 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 0
+0032.724 (0) Table wp_woocommerce_shipping_zone_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=874) in 0.01 seconds
+0032.727 (0) Table wp_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0032.736 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 0
+0032.737 (0) Table wp_woocommerce_shipping_zone_methods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=775) in 0.01 seconds
+0032.740 (0) Table wp_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0032.746 (0) Table wp_woocommerce_shipping_zones: Total expected rows (via COUNT): 0
+0032.747 (0) Table wp_woocommerce_shipping_zones: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=633) in 0.00 seconds
+0032.750 (0) Table wp_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0032.755 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0032.757 (0) Table wp_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=848) in 0.00 seconds
+0032.760 (0) Table wp_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0032.766 (0) Table wp_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0032.768 (0) Table wp_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1301) in 0.00 seconds
+0032.771 (0) Table wp_woocommerce_tax_rates: finishing file(s) (2, 0.5 KB)
+0032.775 (0) Table wp_wpfm_backup: Total expected rows (via COUNT): 0
+0032.776 (0) Table wp_wpfm_backup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=514) in 0.00 seconds
+0032.779 (0) Table wp_wpfm_backup: finishing file(s) (2, 0.3 KB)
+0032.785 (0) Table wp_xyz_ips_short_code: Total expected rows (via COUNT): 6
+0032.785 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0032.788 (0) Table wp_xyz_ips_short_code: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=15016) in 0.01 seconds
+0032.792 (0) Table wp_xyz_ips_short_code: finishing file(s) (2, 2.8 KB)
+0032.793 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_options.table.tmpr379747.gz (1/85/fopen): adding to final database dump
+0032.804 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_options.table.gz (2/85/fopen): adding to final database dump
+0032.805 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_users.table.tmpr3.gz (3/85/fopen): adding to final database dump
+0032.806 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_users.table.gz (4/85/fopen): adding to final database dump
+0032.807 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_usermeta.table.tmpr199.gz (5/85/fopen): adding to final database dump
+0032.808 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_usermeta.table.gz (6/85/fopen): adding to final database dump
+0032.808 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_actionscheduler_actions.table.tmpr54.gz (7/85/fopen): adding to final database dump
+0032.809 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_actionscheduler_actions.table.gz (8/85/fopen): adding to final database dump
+0032.810 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/85/fopen): adding to final database dump
+0032.811 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_actionscheduler_claims.table.gz (10/85/fopen): adding to final database dump
+0032.811 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_actionscheduler_groups.table.tmpr5.gz (11/85/fopen): adding to final database dump
+0032.812 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_actionscheduler_groups.table.gz (12/85/fopen): adding to final database dump
+0032.813 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_actionscheduler_logs.table.tmpr158.gz (13/85/fopen): adding to final database dump
+0032.813 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_actionscheduler_logs.table.gz (14/85/fopen): adding to final database dump
+0032.814 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_commentmeta.table.tmpr616.gz (15/85/fopen): adding to final database dump
+0032.814 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_commentmeta.table.gz (16/85/fopen): adding to final database dump
+0032.815 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_comments.table.tmpr134.gz (17/85/fopen): adding to final database dump
+0032.816 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_comments.table.gz (18/85/fopen): adding to final database dump
+0032.816 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_links.table.tmpr0.gz (19/85/fopen): adding to final database dump
+0032.817 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_links.table.gz (20/85/fopen): adding to final database dump
+0032.818 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_postmeta.table.tmpr7372.gz (21/85/fopen): adding to final database dump
+0032.820 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_postmeta.table.gz (22/85/fopen): adding to final database dump
+0032.821 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_posts.table.tmpr2082.gz (23/85/fopen): adding to final database dump
+0032.825 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_posts.table.gz (24/85/fopen): adding to final database dump
+0032.826 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_term_relationships.table.tmpr100001.gz (25/85/fopen): adding to final database dump
+0032.827 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_term_relationships.table.gz (26/85/fopen): adding to final database dump
+0032.828 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_term_taxonomy.table.tmpr71.gz (27/85/fopen): adding to final database dump
+0032.829 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_term_taxonomy.table.gz (28/85/fopen): adding to final database dump
+0032.830 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_termmeta.table.tmpr9.gz (29/85/fopen): adding to final database dump
+0032.831 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_termmeta.table.gz (30/85/fopen): adding to final database dump
+0032.832 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_terms.table.tmpr71.gz (31/85/fopen): adding to final database dump
+0032.833 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_terms.table.gz (32/85/fopen): adding to final database dump
+0032.833 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_wc_category_lookup.table.tmpr1001.gz (33/85/fopen): adding to final database dump
+0032.834 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_wc_category_lookup.table.gz (34/85/fopen): adding to final database dump
+0032.835 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_wc_product_meta_lookup.table.tmpr0.gz (35/85/fopen): adding to final database dump
+0032.836 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_wc_product_meta_lookup.table.gz (36/85/fopen): adding to final database dump
+0032.837 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_wc_reserved_stock.table.tmpr1.gz (37/85/fopen): adding to final database dump
+0032.838 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_wc_reserved_stock.table.gz (38/85/fopen): adding to final database dump
+0032.838 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_wc_tax_rate_classes.table.tmpr3.gz (39/85/fopen): adding to final database dump
+0032.839 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_wc_tax_rate_classes.table.gz (40/85/fopen): adding to final database dump
+0032.840 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_woocommerce_order_itemmeta.table.tmpr0.gz (41/85/fopen): adding to final database dump
+0032.841 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_woocommerce_order_itemmeta.table.gz (42/85/fopen): adding to final database dump
+0032.841 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_woocommerce_payment_tokenmeta.table.tmpr0.gz (43/85/fopen): adding to final database dump
+0032.842 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_woocommerce_payment_tokenmeta.table.gz (44/85/fopen): adding to final database dump
+0032.842 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_eg_grids.table.tmpr4.gz (45/85/fopen): adding to final database dump
+0032.843 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_eg_grids.table.gz (46/85/fopen): adding to final database dump
+0032.844 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_eg_item_elements.table.tmpr0.gz (47/85/fopen): adding to final database dump
+0032.844 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_eg_item_elements.table.gz (48/85/fopen): adding to final database dump
+0032.845 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_eg_item_skins.table.tmpr113.gz (49/85/fopen): adding to final database dump
+0032.846 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_eg_item_skins.table.gz (50/85/fopen): adding to final database dump
+0032.847 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_eg_navigation_skins.table.tmpr25.gz (51/85/fopen): adding to final database dump
+0032.848 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_eg_navigation_skins.table.gz (52/85/fopen): adding to final database dump
+0032.849 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_gs_logo_slider.table.tmpr0.gz (53/85/fopen): adding to final database dump
+0032.850 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_gs_logo_slider.table.gz (54/85/fopen): adding to final database dump
+0032.850 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_revslider_css.table.tmpr113.gz (55/85/fopen): adding to final database dump
+0032.851 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_revslider_css.table.gz (56/85/fopen): adding to final database dump
+0032.852 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_revslider_layer_animations.table.tmpr0.gz (57/85/fopen): adding to final database dump
+0032.853 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_revslider_layer_animations.table.gz (58/85/fopen): adding to final database dump
+0032.853 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_revslider_navigations.table.tmpr0.gz (59/85/fopen): adding to final database dump
+0032.854 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_revslider_navigations.table.gz (60/85/fopen): adding to final database dump
+0032.855 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_revslider_sliders.table.tmpr5.gz (61/85/fopen): adding to final database dump
+0032.855 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_revslider_sliders.table.gz (62/85/fopen): adding to final database dump
+0032.856 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_revslider_slides.table.tmpr12.gz (63/85/fopen): adding to final database dump
+0032.857 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_revslider_slides.table.gz (64/85/fopen): adding to final database dump
+0032.858 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_revslider_static_slides.table.tmpr4.gz (65/85/fopen): adding to final database dump
+0032.859 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_revslider_static_slides.table.gz (66/85/fopen): adding to final database dump
+0032.859 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_statistics_exclusions.table.tmpr0.gz (67/85/fopen): adding to final database dump
+0032.860 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_statistics_exclusions.table.gz (68/85/fopen): adding to final database dump
+0032.861 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_statistics_historical.table.tmpr0.gz (69/85/fopen): adding to final database dump
+0032.862 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_statistics_historical.table.gz (70/85/fopen): adding to final database dump
+0032.862 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_statistics_pages.table.tmpr31.gz (71/85/fopen): adding to final database dump
+0032.863 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_statistics_pages.table.gz (72/85/fopen): adding to final database dump
+0032.864 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_statistics_search.table.tmpr3.gz (73/85/fopen): adding to final database dump
+0032.865 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_statistics_search.table.gz (74/85/fopen): adding to final database dump
+0032.865 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_statistics_useronline.table.tmpr0.gz (75/85/fopen): adding to final database dump
+0032.866 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_statistics_useronline.table.gz (76/85/fopen): adding to final database dump
+0032.867 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_statistics_visit.table.tmpr7.gz (77/85/fopen): adding to final database dump
+0032.868 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_statistics_visit.table.gz (78/85/fopen): adding to final database dump
+0032.869 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_statistics_visitor.table.tmpr39.gz (79/85/fopen): adding to final database dump
+0032.870 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_statistics_visitor.table.gz (80/85/fopen): adding to final database dump
+0032.871 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_wc_admin_note_actions.table.tmpr20854.gz (81/85/fopen): adding to final database dump
+0032.871 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_wc_admin_note_actions.table.gz (82/85/fopen): adding to final database dump
+0032.872 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_wc_admin_notes.table.tmpr100.gz (83/85/fopen): adding to final database dump
+0032.873 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_wc_admin_notes.table.gz (84/85/fopen): adding to final database dump
+0032.874 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_wc_customer_lookup.table.tmpr0.gz (85/85/fopen): adding to final database dump
+0032.874 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_wc_customer_lookup.table.gz (86/85/fopen): adding to final database dump
+0032.875 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_wc_download_log.table.tmpr0.gz (87/85/fopen): adding to final database dump
+0032.876 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_wc_download_log.table.gz (88/85/fopen): adding to final database dump
+0032.876 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_wc_order_coupon_lookup.table.tmpr1.gz (89/85/fopen): adding to final database dump
+0032.877 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_wc_order_coupon_lookup.table.gz (90/85/fopen): adding to final database dump
+0032.878 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_wc_order_product_lookup.table.tmpr0.gz (91/85/fopen): adding to final database dump
+0032.878 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_wc_order_product_lookup.table.gz (92/85/fopen): adding to final database dump
+0032.879 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_wc_order_stats.table.tmpr0.gz (93/85/fopen): adding to final database dump
+0032.880 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_wc_order_stats.table.gz (94/85/fopen): adding to final database dump
+0032.881 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_wc_order_tax_lookup.table.tmpr1.gz (95/85/fopen): adding to final database dump
+0032.881 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_wc_order_tax_lookup.table.gz (96/85/fopen): adding to final database dump
+0032.882 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_wc_product_attributes_lookup.table.tmpr1001.gz (97/85/fopen): adding to final database dump
+0032.883 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_wc_product_attributes_lookup.table.gz (98/85/fopen): adding to final database dump
+0032.883 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_wc_product_download_directories.table.tmpr0.gz (99/85/fopen): adding to final database dump
+0032.885 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_wc_product_download_directories.table.gz (100/85/fopen): adding to final database dump
+0032.885 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_wc_rate_limits.table.tmpr0.gz (101/85/fopen): adding to final database dump
+0032.886 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_wc_rate_limits.table.gz (102/85/fopen): adding to final database dump
+0032.886 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_wc_webhooks.table.tmpr0.gz (103/85/fopen): adding to final database dump
+0032.887 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_wc_webhooks.table.gz (104/85/fopen): adding to final database dump
+0032.888 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_woocommerce_api_keys.table.tmpr0.gz (105/85/fopen): adding to final database dump
+0032.888 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_woocommerce_api_keys.table.gz (106/85/fopen): adding to final database dump
+0032.889 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_woocommerce_attribute_taxonomies.table.tmpr2.gz (107/85/fopen): adding to final database dump
+0032.890 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_woocommerce_attribute_taxonomies.table.gz (108/85/fopen): adding to final database dump
+0032.890 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_woocommerce_downloadable_product_permissions.table.tmpr0.gz (109/85/fopen): adding to final database dump
+0032.891 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (110/85/fopen): adding to final database dump
+0032.892 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_woocommerce_log.table.tmpr0.gz (111/85/fopen): adding to final database dump
+0032.893 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_woocommerce_log.table.gz (112/85/fopen): adding to final database dump
+0032.893 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_woocommerce_order_items.table.tmpr0.gz (113/85/fopen): adding to final database dump
+0032.894 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_woocommerce_order_items.table.gz (114/85/fopen): adding to final database dump
+0032.895 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_woocommerce_payment_tokens.table.tmpr0.gz (115/85/fopen): adding to final database dump
+0032.896 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_woocommerce_payment_tokens.table.gz (116/85/fopen): adding to final database dump
+0032.896 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_woocommerce_sessions.table.tmpr0.gz (117/85/fopen): adding to final database dump
+0032.897 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_woocommerce_sessions.table.gz (118/85/fopen): adding to final database dump
+0032.898 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_woocommerce_shipping_zone_locations.table.tmpr0.gz (119/85/fopen): adding to final database dump
+0032.899 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_woocommerce_shipping_zone_locations.table.gz (120/85/fopen): adding to final database dump
+0032.900 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_woocommerce_shipping_zone_methods.table.tmpr0.gz (121/85/fopen): adding to final database dump
+0032.900 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_woocommerce_shipping_zone_methods.table.gz (122/85/fopen): adding to final database dump
+0032.901 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_woocommerce_shipping_zones.table.tmpr0.gz (123/85/fopen): adding to final database dump
+0032.902 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_woocommerce_shipping_zones.table.gz (124/85/fopen): adding to final database dump
+0032.903 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_woocommerce_tax_rate_locations.table.tmpr0.gz (125/85/fopen): adding to final database dump
+0032.904 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_woocommerce_tax_rate_locations.table.gz (126/85/fopen): adding to final database dump
+0032.905 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_woocommerce_tax_rates.table.tmpr0.gz (127/85/fopen): adding to final database dump
+0032.905 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_woocommerce_tax_rates.table.gz (128/85/fopen): adding to final database dump
+0032.906 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_wpfm_backup.table.tmpr0.gz (129/85/fopen): adding to final database dump
+0032.906 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_wpfm_backup.table.gz (130/85/fopen): adding to final database dump
+0032.907 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_xyz_ips_short_code.table.tmpr7.gz (131/85/fopen): adding to final database dump
+0032.908 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db-table-wp_xyz_ips_short_code.table.gz (132/85/fopen): adding to final database dump
+0032.915 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db.gz: finished writing out complete database file (708.5 KB)
+0032.934 (0) Total database tables backed up: 66 (backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db.gz, size: 725665, sha1: bd99ccc74534a15e5fec5cd6bb661e346432208e, sha256: 9b645f46ec848cad4f818a5f9d0a08b2e9633114a8b3ce04a4cb858efb771d13)
+0032.942 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0032.943 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0032.944 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0032.945 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-others.zip: others: This file has not yet been successfully uploaded: will queue
+0032.945 (0) backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db.gz: db: This file has not yet been successfully uploaded: will queue
+0032.946 (0) Saving backup history. Total backup size: 265.1 MB
+0032.949 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0032.952 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0032.952 (0) No remote despatch: user chose no remote backup service
+0032.953 (0) Recording as successfully uploaded: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip
+0032.955 (0) Deleting zip manifest (backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-plugins.zip.list.tmp)
+0032.957 (0) Recording as successfully uploaded: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-themes.zip
+0032.959 (0) Deleting zip manifest (backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-themes.zip.list.tmp)
+0032.960 (0) Recording as successfully uploaded: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip
+0032.962 (0) Deleting zip manifest (backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-uploads.zip.list.tmp)
+0032.964 (0) Recording as successfully uploaded: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-others.zip
+0032.965 (0) Deleting zip manifest (backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-others.zip.list.tmp)
+0032.966 (0) Recording as successfully uploaded: backup_2022-09-12-1216_HIBROKER_27a3da4a0d66-db.gz
+0032.970 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=3, retain_db=3
+0032.971 (0) Number of backup sets in history: 4; groups (db): 1
+0032.972 (0) Examining (for databases) backup set with group_id=0, nonce=27a3da4a0d66, datestamp=1662984965 (Sep 12 2022 12:16:05)
+0032.973 (0) This backup set is the backup set just made, so will not be deleted.
+0032.973 (0) Examining (for databases) backup set with group_id=0, nonce=3e35593d71ec, datestamp=1662391742 (Sep 05 2022 15:29:02)
+0032.973 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0032.974 (0) Examining (for databases) backup set with group_id=0, nonce=7b94af25259b, datestamp=1661775437 (Aug 29 2022 12:17:17)
+0032.974 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0032.974 (0) Examining (for databases) backup set with group_id=0, nonce=1d2783a29e69, datestamp=1661170917 (Aug 22 2022 12:21:57)
+0032.974 (0) 1661170917: db: this set includes a database (backup_2022-08-22-1221_HIBROKER_1d2783a29e69-db.gz); db count is now 3
+0032.974 (0) 1661170917: db: over retain limit (3); will delete this database
+0032.974 (0) Delete file: backup_2022-08-22-1221_HIBROKER_1d2783a29e69-db.gz, service=none
+0032.975 (0) Deleting local copy (backup_2022-08-22-1221_HIBROKER_1d2783a29e69-db.gz)
+0032.977 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0032.978 (0) Number of backup sets in history: 4; groups (files): 1
+0032.979 (0) Examining (for files) backup set with nonce=27a3da4a0d66, datestamp=1662984965 (Sep 12 2022 12:16:05)
+0032.979 (0) This backup set is the backup set just made, so will not be deleted.
+0032.979 (0) This backup set is the backup set just made, so will not be deleted.
+0032.980 (0) This backup set is the backup set just made, so will not be deleted.
+0032.980 (0) This backup set is the backup set just made, so will not be deleted.
+0032.980 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0032.980 (0) Examining (for files) backup set with nonce=3e35593d71ec, datestamp=1662391742 (Sep 05 2022 15:29:02)
+0032.980 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0032.980 (0) Examining (for files) backup set with nonce=7b94af25259b, datestamp=1661775437 (Aug 29 2022 12:17:17)
+0032.980 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0032.981 (0) Examining (for files) backup set with nonce=1d2783a29e69, datestamp=1661170917 (Aug 22 2022 12:21:57)
+0032.981 (0) plugins: over retain limit (3); will delete this file entity
+0032.981 (0) themes: over retain limit (3); will delete this file entity
+0032.981 (0) uploads: over retain limit (3); will delete this file entity
+0032.981 (0) others: over retain limit (3); will delete this file entity
+0032.981 (0) Delete file: backup_2022-08-22-1221_HIBROKER_1d2783a29e69-plugins.zip, service=none
+0032.981 (0) Deleting local copy (backup_2022-08-22-1221_HIBROKER_1d2783a29e69-plugins.zip)
+0032.984 (0) Delete file: backup_2022-08-22-1221_HIBROKER_1d2783a29e69-themes.zip, service=none
+0032.985 (0) Deleting local copy (backup_2022-08-22-1221_HIBROKER_1d2783a29e69-themes.zip)
+0032.988 (0) Delete file: backup_2022-08-22-1221_HIBROKER_1d2783a29e69-uploads.zip, service=none
+0032.989 (0) Deleting local copy (backup_2022-08-22-1221_HIBROKER_1d2783a29e69-uploads.zip)
+0032.993 (0) Delete file: backup_2022-08-22-1221_HIBROKER_1d2783a29e69-others.zip, service=none
+0032.994 (0) Deleting local copy (backup_2022-08-22-1221_HIBROKER_1d2783a29e69-others.zip)
+0032.997 (0) This backup set is now empty; will remove from history
+0032.998 (0) Deleting log file (log.1d2783a29e69.txt)
+0033.000 (0) Retain: saving new backup history (sets now: 3) and finishing retain operation
+0033.004 (0) Resume backup (27a3da4a0d66, 0): finish run
+0033.006 (0) Decremented the semaphore (fd) by 1
+0033.007 (0) Semaphore (fd) unlocked
+0033.007 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0033.011 (0) The backup apparently succeeded and is now complete
+0033.012 (0) Fetching RSS news feed
+0033.323 (0) Fetched RSS news feed; result is a: SimplePie
+0033.345 (0) Sending email ('Archivos y base de datos (Copia de seguridad completa)') report (attachments: 0, size: 0 KB) to: hibro...
+0033.586 (0) Aparentemente, la copia de seguridad ha sido correcta y ahora está completa

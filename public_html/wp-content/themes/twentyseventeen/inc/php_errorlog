@@ -1,0 +1,8 @@
+[29-Mar-2022 12:12:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/customer/www/hi-broker.com/public_html/wp-content/themes/twentyseventeen/inc/customizer.php:161
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/hi-broker.com/public_html/wp-content/themes/twentyseventeen/inc/customizer.php on line 161
+[29-Mar-2022 12:48:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/customer/www/hi-broker.com/public_html/wp-content/themes/twentyseventeen/inc/template-functions.php:67
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/hi-broker.com/public_html/wp-content/themes/twentyseventeen/inc/template-functions.php on line 67

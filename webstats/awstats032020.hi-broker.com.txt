@@ -1,0 +1,1071 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 202003 will be lost/reset.
+# Last config file used to build this data file was /home/orianaq0/tmp/awstats/awstats.hi-broker.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2010                
+POS_TIME 2683                
+POS_VISITOR 16285               
+POS_DAY 27830               
+POS_DOMAIN 3632                
+POS_LOGIN 4363                
+POS_ROBOT 4518                
+POS_WORMS 5113                
+POS_EMAILSENDER 5244                
+POS_EMAILRECEIVER 5387                
+POS_SESSION 28747               
+POS_SIDER 28960               
+POS_FILETYPES 5522                
+POS_DOWNLOADS 5927                
+POS_OS 6631                
+POS_BROWSER 6911                
+POS_SCREENSIZE 8795                
+POS_UNKNOWNREFERER 8869                
+POS_UNKNOWNREFERERBROWSER 9700                
+POS_ORIGIN 10263               
+POS_SEREFERRALS 10405               
+POS_PAGEREFS 10561               
+POS_SEARCHWORDS 10826               
+POS_KEYWORDS 10978               
+POS_MISC 2345                
+POS_ERRORS 11037               
+POS_CLUSTER 4219                
+POS_SIDER_404 11244               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200401005147 1 0 4640936995626
+FirstTime 20200301011040
+LastTime 20200331233056
+LastUpdate 20200401005309 1 0 0 0 0
+TotalVisits 593                 
+TotalUnique 265                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 305                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+AddToFavourites 0 121 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+JavascriptDisabled 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 105 212 18730093 48 78 1155538
+1 101 305 7476330 54 124 2866258
+2 115 120 3086942 47 178 4218900
+3 256 317 6873946 54 312 8708317
+4 161 200 4565533 57 105 2079099
+5 201 234 4238323 96 120 4656593
+6 72 88 1085085 67 82 1334806
+7 54 56 256507 93 111 1350460
+8 62 179 5249760 59 68 950007
+9 69 132 2051568 100 135 5900897
+10 163 383 5664628 61 73 972536
+11 384 1038 24104534 117 128 561798
+12 57 183 5203882 40 63 832367
+13 438 1136 32091703 106 214 2782217
+14 400 1177 39942132 127 217 7766581
+15 358 640 20296932 110 275 5755393
+16 243 681 24880261 89 245 3233318
+17 425 896 22572452 154 242 5900963
+18 288 645 17401513 104 156 3170024
+19 990 2172 65595502 251 396 14670117
+20 475 1061 32270089 189 309 6785576
+21 527 847 19098484 140 263 3320578
+22 594 1270 28502894 124 426 11746183
+23 306 907 35235189 117 195 3861180
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 33
+ve 1870 4083 171911191
+us 1867 2733 44067867
+fr 1454 5092 165280361
+ru 939 940 1168315
+ca 139 200 1624448
+cn 135 185 4139171
+br 91 91 801202
+es 80 310 5147910
+se 59 130 5456094
+bg 51 563 13435298
+de 26 83 1482512
+ua 19 19 110847
+gb 16 75 1424821
+ma 15 15 109695
+in 13 44 708525
+co 12 135 4327177
+it 11 11 534914
+nl 9 9 169564
+cw 6 67 1042232
+nc 6 6 43878
+sc 4 4 20912
+kr 4 4 27186
+cl 3 65 3193402
+vg 2 2 42741
+gr 2 2 18951
+th 2 2 13124
+za 2 2 77153
+tr 2 2 832
+mx 1 1 75412
+sg 1 1 416
+lt 1 1 416
+sa 1 1 17299
+au 1 1 416
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+no_user_agent 1100 26067288 20200331200310 0
+googlebot 497 7033258 20200331003524 31
+bot[\s_+:,\.\;\/\\-] 336 9289136 20200331171441 69
+robot 136 2300287 20200331090151 16
+bingpreview 55 884271 20200316213726 0
+msnbot 54 882271 20200316203736 2
+unknown 37 2479 20200330212513 37
+spider 31 295955 20200312035711 1
+crawl 5 36889 20200326014830 3
+[\s_+:,\.\;\/\\-]bot 3 55194 20200320145058 0
+googlebot\-image 2 29703 20200311173511 0
+curl 1 75423 20200309023728 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 17
+js 3310 39318785 0 0
+png 1479 23663510 0 0
+jpeg 290 141779108 0 0
+woff 23 214570 0 0
+Unknown 108 1336007 0 0
+xml 4 2425 0 0
+php 4477 47178782 0 0
+pdf 18 16870595 0 0
+jpg 291 19379791 0 0
+gif 68 569836 0 0
+svg 100 1361802 0 0
+ttf 3 10008 0 0
+rar 5 2734484 0 0
+woff2 13 299594 0 0
+css 2474 55993946 0 0
+html 2215 75744298 0 0
+env 1 16741 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 11
+/productos/LatinCare%20Asisa/Solicitud.pdf 4 0 208511
+/productos/AlumnusCare/AlumnusCare%20PRODUCTO.pdf 4 0 12113070
+/productos/LatinCare%20Asisa/Cuestionario%20medico.pdf 3 0 262095
+/productos/LatinCare%20Asisa/LatinCare%20Asisa.rar 3 0 309858
+/productos/DKV_ELITE%20INTEGRAL/Cobertura.pdf 2 0 179516
+/productos/Adeslas%20Plena%20Plus/Adeslas%20Plena%20Plus.rar 1 0 665086
+/productos/Sanitas%20Mas%20Salud/Sanitas%20Mas%20Salud.rar 1 0 1759540
+/productos/AlumnusCare/Cobertura.pdf 1 0 3028260
+/productos/Sanitas%20Mas%20Salud/Solicitud.pdf 1 0 571911
+/productos/DKV_ELITE%20INTEGRAL/Solicitud.pdf 1 0 330212
+/productos/Mercantil/Cobertura.pdf 1 0 177020
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 15
+linuxandroid 326 82
+winlong 10 10
+winunknown 18 12
+java 1 1
+macosx9 3 3
+win8.1 18 18
+ios_iphone 942 136
+win7 1046 431
+Unknown 2840 2708
+winxp 72 20
+macosx8 1 1
+win8 2 2
+macosx 1021 115
+winnt 8380 3285
+linux 199 20
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 86
+firefox69.0 1 1
+opera53.0.2907.68 2 2
+firefox64.0 1 1
+firefox17.0 2 2
+firefox74.0 133 10
+chrome75.0.3770.142 4 4
+chrome35.0.1883.0 1 1
+chrome80.0.3987.122 3509 1603
+chrome80.0.3987.132 2563 688
+firefox60.0 170 170
+nokia 1 1
+firefox66.0 1 1
+chrome58.0.3029.110 1 1
+opera54.0.2952.71 3 3
+firefox56.0 3 3
+chrome42.0.2311.135 10 0
+firefox73.0 4 4
+chrome67.0.3396.79 4 4
+chrome53.0.2785.143 12 12
+chrome53.0.2785.49 15 9
+iphone 7 0
+chrome58.0.1145.75 3 3
+chrome53.0.2785.104 2 2
+firefox71.0 1 1
+chrome63.0.3239.132 132 132
+chrome52.0.2743.116 2 2
+chrome73.0.3683.103 3 3
+chrome75.0.3770.100 62 3
+chrome43.0.2357.121 18 17
+Unknown 2782 2709
+firefox58.0 1 1
+chrome74.0.3729.131 1 1
+firefox67.0 6 6
+chrome76.0.3809.132 2 2
+chrome80.0.3987.149 3320 1031
+chrome80.0.3987.106 1 1
+opera54.0.2952.51 2 2
+chrome74.0.3729.169 6 6
+chrome34.0.1847.131 3 3
+chrome40.0.2214.85 6 6
+chrome57.0.2987.108 36 1
+chrome35.0.1916.47 3 3
+firefox72.0 156 9
+firefox59.0 3 3
+chrome31.0.1650.57 6 6
+chrome45.0.2454.94 1 1
+opera54.0.2952.64 4 4
+firefox45.0 1 1
+chrome36.0.1929.0 1 1
+chrome42.0.2311.138 24 19
+firefox29.0 18 18
+chrome41.0.2228.0 22 22
+opera54.0.2952.54 5 5
+chrome26.0.1410.65 1 1
+chrome78.0.3904.130 2 2
+chrome67.0.3396.87 5 5
+netscape5.0 2 2
+chrome66.0.3359.181 196 47
+opera53.0.2907.99 2 2
+android 1 0
+chrome78.0.3904.97 260 17
+opera66.0.3515.115 3 1
+safari9.0 2 2
+chrome34.0.1847.116 7 7
+safari 272 21
+firefox53.0 1 1
+chrome49.0.2623.75 2 1
+chrome79.0.3945.130 63 4
+safari13.0.5 661 113
+opera53.0.2907.106 6 6
+chrome67.0.3396.99 2 2
+mozilla 78 13
+chrome72.0.3626.121 3 3
+firefox63.0 8 8
+firefox11.0 52 0
+chrome56.0.2896.3 6 4
+chrome70.0.3538.102 63 2
+chrome68.0.3440.106 4 4
+firefox28.0 1 1
+opera67.0.3575.79 1 1
+chrome21.0.1180.89 1 1
+chrome65.0.3325.181 1 1
+chrome40.0.2214.89 19 17
+opera67.0.3575.53 13 8
+firefox50.0 59 1
+opera55.0.2994.44 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 15
+CATExplorador/1.0beta_(sistemes_at_domini_dot_cat;_http://domini.cat/catexplorador.html) 20200318120855
+Mozilla/4.0_(compatible;_Synapse) 20200302231433
+Go-http-client/1.1 20200331042408
+W3_Total_Cache 20200325110506
+Poster 20200331222705
+WhatsApp/2.20.64_A 20200306002901
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t13rl;__http://researchscan.comsys.rwth-aachen.de) 20200316084604
+python-requests/2.23.0 20200331233056
+Mozilla/5.0_(compatible;_Dataprovider.com) 20200322234101
+Mozilla/5.0_(compatible;_ips-agent) 20200306095306
+WordPress/5.3.2;_https://hi-broker.com 20200331151855
+WordPress/5.3.2;_http://hi-broker.com 20200331233058
+Mozilla/5.0 20200331131019
+WordPress 20200329105243
+Scrapy/1.7.2_(_https://scrapy.org) 20200303050147
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 11
+Go-http-client/1.1 20200331042408
+Windows_Live_Writter 20200331102652
+WhatsApp/2.20.64_A 20200306002901
+Poster 20200331222705
+W3_Total_Cache 20200325110506
+CATExplorador/1.0beta_(sistemes_at_domini_dot_cat;_http://domini.cat/catexplorador.html) 20200318120855
+WordPress/5.3.2;_http://hi-broker.com 20200331233058
+WordPress/5.3.2;_https://hi-broker.com 20200331151855
+Scrapy/1.7.2_(_https://scrapy.org) 20200303050147
+WordPress 20200329105243
+python-requests/2.23.0 20200331233056
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 656 896
+From1 5 5
+From2 9 21
+From3 5 5
+From4 6169 13952
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 9 21
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 4
+https://185.197.131.142:443 2 2
+http://www.marinetraffic.com 1 1
+http://baidu.com 1 1
+https://35.214.253.240:443 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 10
+500 12 283079
+302 783 3066255
+301 529 1428
+404 544 41718848
+444 214 0
+403 4 11224
+206 33 12539043
+400 11 6971
+405 5 210
+504 2 494
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 172
+/wp-config.php3 1 -
+/shared/.env 1 -
+/wp-content/plugins/external-rss-reader/readme.txt 1 -
+/private/.env 1 -
+/productos/DKV_ELITE%20INTEGRAL/Cuestionario%20medico.pdf 1 -
+/car-insurance-you-can-count-on/ 3 -
+/demo/ 1 -
+/base.php 2 -
+/database.php 2 -
+/wp-content/plugins/trx_addons/js/swiper/maps/swiper.jquery.min.js.map 12 -
+/wp-content/themes/mantra/uploads/upload.php 1 hi-broker.com
+/bgeiis.php 1 -
+/wp-content/plugins/acf-frontend-display/readme.txt 1 -
+/back/.env 1 -
+/wordpress/ 3 -
+/installer-backup.php 2 -
+/protected/.env 1 -
+/web/.env 1 -
+/category/insurance-catalog/page/2/ 1 -
+/index2.php 1 http://www.facebook.net/
+/mysqli.php 2 -
+/products/ 1 -
+/customer-service/ 2 -
+/wp-content/plugins/bp-cover/css/readme.txt 1 -
+/wp-content/plugins/e-preview.php 1 http://www.facebook.net/
+/customer-service 1 -
+/frontend/.env 1 -
+/health-insurance-for-all-your-family/ 4 -
+/wp-content/plugins/wp-vertical-gallery/readme.txt 1 -
+/wp-config.php7 1 -
+/cms/ 1 -
+/sitemap.xml 3 -
+/consystem.php 1 -
+/dbadmin.php 2 -
+/framework/.env 1 -
+/wp-config.php8 1 -
+/c.php 2 -
+/1234.php 2 -
+/portal/ 1 -
+/apps/.env 1 -
+/site/.env 1 -
+/productos/Mercantil/Solicitud.pdf 2 -
+/PHPminiadmin.php 2 -
+/phpmyminiadmin.php 2 -
+/wp-config.php11 1 -
+/rest/.env 1 -
+/cli/.env 1 -
+/wp-interst.php 1 http://www.facebook.net/
+/login/.env 1 -
+/productos/AlumnusCare/AlumnusCare%20PRODUCTO.pdf 1 -
+/api/.env 1 -
+/MySQLi.php 2 -
+/ad.php 1 -
+/wp-content/themes/porto/framework/spyropress-context.php 1 -
+/wp-content/plugins/downloads-manager/readme.txt 1 -
+/phpminiadmin.php 2 -
+/humans.txt 3 -
+/wp-content/themes/wp-update.php 1 hi-broker.com
+/wp-remote-upload.php 1 http://www.facebook.net/
+/db.php 2 -
+/installer.php 2 -
+/wp-content/plugins/cherry-plugin/admin/css/cherry-admin-plugin.css 1 -
+/.env 1 -
+/123.php 2 -
+/my.php 2 -
+/wp-content/plugins/gassembly/js/js.php 1 http://www.facebook.net/
+/test/ 2 -
+/sql.php 2 -
+/wp-sgin.php 1 hi-broker.com
+/mysql.php 2 -
+/admin/.env 1 -
+/engine/.env 1 -
+/productos/Mercantil/Cuestionario%20medico.pdf 1 -
+/conn.php 2 -
+/wp-content/plugins/mailpress/mp-includes/action.php 1 -
+/hibroker/wp-admin/ 2 -
+/tmp/sfx.php 1 -
+/wp-caches.php 1 -
+/wp-content/plugins/wp-levoslideshow/readme.txt 1 -
+/master/.env 1 -
+/wp-config.php6 1 -
+/idnex.php 1 hi-broker.com
+/trackback.php 1 -
+/wp-content/plugins/downloads-manager/page-download-template.tpl 1 -
+/vue/.env 1 -
+/vod_installer/.env 1 -
+/wp-config.php2 1 -
+/server/.env 1 -
+/wp-content/uploads/209/09/Asisa..png 203 -
+/site/ 2 -
+/deployment/.env 1 -
+/wp/ 3 -
+/api.php 2 -
+/backup/ 1 -
+/application/.env 1 -
+/personal/.env 1 -
+/newsletter/ 1 -
+/wp-content/plugins/dzs-videogallery/ajax.php 1 -
+/big-protection-for-small-business 1 -
+/main/ 2 -
+/adminer.php 2 -
+/src/.env 1 -
+/resultados/width=%22100px 36 http://hi-broker.com/resultados/
+/contacts/ 3 -
+/asset-manifest.json 1 http://hi-broker.com/
+/nosotros/ 2 -
+/WP-login.php 1 -
+/auth/.env 1 -
+/take-care-of-your-sweet-home/ 4 -
+/myadmin.php 2 -
+/wp-config.php10 1 -
+/dev/ 1 -
+/app/.env 1 -
+/cotizacionPDF.php 6 http://hi-broker.com/resultados/
+/core/.env 1 -
+/wp-info.php/wp-info.php 1 hi-broker.com
+/wp-content/plugins/wp-dreamworkgallery/readme.txt 1 -
+/phpadmin.php 2 -
+/local/.env 1 -
+/miniadmin.php 2 -
+/productos/LatinCare%20Asisa/Cobertura.pdf 3 -
+/our-benefits/ 3 -
+/wp-config.php5 1 -
+/MySQL.php 2 -
+/development/.env 1 -
+/laravel/.env 1 -
+/wp-config.php12 1 -
+/hibroker 1 -
+/wp-content/plugins/wp-file-upload/css/wordpress_file_upload_adminbarstyle.css 1 hi-broker.com
+/old/ 3 -
+/backend/.env 1 -
+/system/.env 1 -
+/dependencies/.env 1 -
+/big-protection-for-small-business/ 3 -
+/web/ 1 -
+/wp-content/plugins/dzs-zoomsounds/ajax.php 1 -
+/xmlrpcs.php 2 hi-broker.com
+/ 10 -
+/wp-content/plugins/themegrill-demo-importer/readme.txt 1 -
+/wp-cson.php 1 -
+/PHPMINIADMIN.php 2 -
+/wp-includes/theme-compat/files.php 1 -
+/wp-content/plugins/duplicator/readme.txt 6 -
+/docker/.env 1 -
+/hibroker/ 33 -
+/wp-content/plugins/4nton-extensions/readme.txt 1 -
+/config/.env 1 -
+/laravel-artisan/.env 1 -
+/mini.php 2 -
+/adm.php 2 -
+/cp/.env 1 -
+/ads.txt 8 -
+/wp-content/plugins/drpsassembly/js/js.php 1 http://www.facebook.net/
+/vendor/phpunit/phpunit/LICENSE 1 -
+/hibroker.com 1 -
+/wp-config.php4 1 -
+/wp-content/plugins/breezing-forms/readme.txt 1 -
+/tmp/ 1 -
+/db2.php 2 -
+/wp-config.php9 1 -
+/wp-content/plugins/attachment-manager/readme.txt 1 -
+/productos/Sanitas%20Mas%20Salud/Cuestionario%20medico.pdf 1 -
+/test.php 3 -
+/document/.env 1 -
+/project/.env 1 -
+/javascript:/history.go(-1 2 http://hi-broker.com/javascript://history.go(-1)
+/dev/.env 1 -
+/connect.php 2 -
+/temp/ 1 -
+/components/com_foxcontact/_func.php 1 -
+/wp-content/themes/chigue/db.php 1 -
+/wp-content/plugins/brizy/public/static/css/style.css 1 hi-broker.com
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 305
+186.90.1.19 1838 3826 159712345 20200327005908
+35.214.253.240 1710 1710 8102574 20200331233058
+92.176.237.56 1172 3871 118473935 20200331153039
+185.197.131.251 900 901 17188 20200310010543
+90.69.1.212 264 1203 46272031 20200331211207
+192.99.144.106 130 130 356452 20200305225017
+189.59.5.49 91 91 801202 20200310054849
+176.74.199.2 55 126 5400480 20200303050143
+58.220.234.18 53 53 387589 20200323040344
+87.118.135.66 48 500 12447666 20200324230000
+62.14.44.82 39 180 3641061 20200305105120
+186.93.57.75 21 112 4340300 20200304160820
+67.254.204.60 15 116 6685954 20200317165709
+45.224.105.213 15 15 109695 20200323035733
+88.12.13.161 13 16 246455 20200303094137
+188.163.104.163 13 13 64562 20200313200658
+107.158.93.221 12 72 1126290 20200304182425
+181.234.128.142 12 135 4327177 20200328231055
+35.241.142.234 11 11 923471 20200312111956
+35.187.123.247 11 11 923407 20200312111956
+85.48.185.131 9 14 204906 20200304195405
+85.48.186.133 9 13 164395 20200305203237
+158.222.140.221 9 169 5376328 20200317010434
+62.14.233.52 8 85 854274 20200305104354
+201.211.156.0 8 74 3801078 20200326153052
+160.153.155.3 1 1 416 20200331222705
+54.202.57.87 1 1 18377 20200329042559
+18.236.162.41 1 1 7313 20200309044130
+134.19.179.187 2 2 1351 20200320205911
+115.153.136.42 0 1 39554 
+85.10.204.252 1 1 75402 20200302225111
+5.62.156.215 1 1 18376 20200328034617
+116.248.186.52 1 1 17448 20200318230850
+186.64.117.125 1 1 416 20200312051051
+201.242.87.79 0 6 23174 
+66.249.93.220 0 2 19480 
+128.199.180.47 1 1 21274 20200304043627
+220.178.147.10 0 1 11939 
+218.62.221.174 1 1 20848 20200321081617
+3.87.109.194 1 1 0 20200306141921
+106.246.250.154 2 2 13593 20200317055947
+14.152.90.25 3 3 55233 20200323231808
+184.185.236.93 1 1 75438 20200310124807
+82.165.203.254 1 1 18388 20200326171653
+120.36.177.126 1 1 85333 20200327044024
+89.238.154.24 2 2 77113 20200323183855
+45.124.65.234 1 1 72387 20200317215531
+194.5.156.71 1 1 416 20200315203145
+185.232.22.197 2 2 77115 20200308002824
+66.102.9.134 2 43 781036 20200304144649
+72.14.199.90 0 4 21258 
+90.174.2.79 1 1 18419 20200314073009
+85.48.185.195 1 1 18400 20200302143106
+64.41.200.101 1 1 75570 20200325100028
+34.222.244.5 1 1 18406 20200309043424
+66.102.8.225 0 1 868 
+69.58.178.57 1 1 18398 20200306095306
+66.102.8.45 0 21 2773024 
+116.18.229.20 1 1 17602 20200323121703
+82.165.250.153 1 1 72389 20200318014529
+18.236.67.206 2 2 0 20200318000633
+146.66.104.117 1 1 416 20200321074542
+49.82.50.225 1 1 20895 20200323125225
+104.245.144.236 2 2 42839 20200313232902
+60.185.73.173 1 1 17560 20200323212038
+115.153.89.73 1 1 17469 20200326105651
+125.90.121.192 0 1 30438 
+115.151.205.149 1 1 20799 20200321211847
+64.246.178.34 1 1 18394 20200304085749
+103.82.235.2 4 6 7492 20200304034751
+5.62.158.67 1 1 18404 20200313130544
+180.125.17.10 1 1 17557 20200328195018
+220.166.64.114 1 1 416 20200322073915
+51.254.199.12 1 1 75419 20200321041053
+104.227.246.106 3 3 226229 20200311110310
+66.102.8.253 0 8 42004 
+187.189.225.82 1 1 75412 20200315191224
+223.152.67.99 1 1 20684 20200329055254
+116.55.141.133 1 1 17449 20200324210133
+193.106.30.99 1 1 0 20200301123052
+178.128.30.204 1 1 570 20200327100421
+122.246.95.188 1 1 18224 20200321113804
+168.81.92.95 1 1 18407 20200316232922
+117.95.199.159 0 1 36070 
+125.105.243.55 1 1 20494 20200323023346
+64.233.172.99 0 22 568209 
+124.109.2.86 2 2 13124 20200327224804
+182.247.36.192 1 1 18904 20200325042913
+121.56.213.101 1 1 17489 20200321081635
+196.52.84.46 2 2 77153 20200328012928
+159.65.24.22 7 7 134546 20200309053606
+64.246.161.42 1 1 18378 20200327164848
+50.62.176.179 1 1 416 20200331041046
+195.154.177.210 2 2 518 20200323180008
+104.152.168.41 1 1 416 20200329212651
+182.138.156.113 1 1 18951 20200329174044
+66.102.8.251 0 7 23952 
+106.56.90.129 1 1 17588 20200330080929
+106.111.9.219 1 1 18375 20200329174003
+67.227.248.122 1 1 416 20200331065734
+123.156.185.240 1 1 18856 20200326095511
+182.90.74.200 1 1 18970 20200324072451
+185.234.219.231 1 1 16741 20200312052414
+120.14.138.250 1 1 19297 20200325110110
+212.92.105.137 4 4 80590 20200316054942
+3.93.72.188 1 1 18406 20200309000229
+188.121.41.53 2 2 13593 20200312114957
+49.82.120.92 1 1 18935 20200329055254
+66.249.93.217 0 6 23018 
+116.248.186.43 1 1 20876 20200328140731
+94.103.80.108 1 1 75445 20200322062839
+61.175.144.143 0 1 35296 
+111.32.99.200 1 1 18916 20200323224530
+180.136.81.162 1 1 505 20200325032604
+194.187.249.37 2 2 77125 20200310184022
+67.207.199.219 1 1 18401 20200301210315
+212.92.106.146 2 2 77117 20200320005241
+117.67.244.227 0 1 171276 
+66.249.93.212 0 3 20252 
+66.249.93.218 0 7 41450 
+185.224.138.14 1 1 416 20200329173243
+89.238.154.125 4 4 154209 20200320035003
+132.148.80.15 1 1 0 20200320012637
+34.220.56.195 1 1 18388 20200331042408
+42.86.59.65 1 1 20850 20200330104731
+62.210.80.93 1 1 18397 20200312202713
+111.78.67.135 1 1 23186 20200321081638
+66.102.8.38 2 34 524584 20200302215723
+66.249.93.99 1 15 290557 20200304134634
+42.236.10.117 0 5 151284 
+34.217.97.43 1 1 75444 20200323121859
+31.14.74.55 2 2 42741 20200331021816
+61.54.243.14 2 2 13593 20200311201213
+149.202.87.162 2 2 77082 20200301160537
+23.83.130.181 2 2 77082 20200308041132
+134.122.55.157 1 1 18413 20200323211023
+162.213.251.219 1 1 416 20200318031005
+44.234.42.78 1 1 18420 20200323034724
+106.58.242.162 0 1 11901 
+49.87.79.174 1 1 20488 20200329130745
+47.105.86.207 1 1 416 20200320153135
+198.71.225.154 2 2 13593 20200323123925
+192.71.89.119 1 1 18416 20200319155849
+66.102.8.237 0 1 664 
+18.236.66.70 1 1 18409 20200317040634
+136.243.190.146 2 2 36789 20200329071656
+183.143.50.247 1 1 18547 20200322215214
+222.137.47.168 1 1 18400 20200323220220
+223.89.189.40 1 1 18983 20200325203514
+66.249.93.221 0 3 2784 
+1.196.176.111 1 1 20801 20200330080957
+182.108.168.60 1 1 18971 20200322215129
+223.241.20.122 1 1 20821 20200323224534
+172.104.80.15 1 1 17307 20200318005750
+212.92.105.227 2 2 77123 20200311145819
+140.255.45.8 1 1 21012 20200324072452
+137.226.113.26 2 2 36815 20200316084604
+212.92.123.142 2 2 77183 20200328233357
+40.79.25.228 2 2 75868 20200321162529
+66.249.93.211 0 2 1826 
+31.184.219.48 3 3 39942 20200308062257
+35.208.39.7 1 1 416 20200329224711
+114.238.85.128 1 1 21238 20200323023347
+84.17.51.62 3 3 152612 20200326164341
+118.36.234.150 2 2 13593 20200322220051
+34.228.216.167 1 1 75420 20200322033755
+58.255.198.42 1 1 20834 20200328020610
+192.71.30.89 1 1 18383 20200328233243
+66.249.93.219 0 4 20808 
+109.201.152.19 4 4 154204 20200317020247
+59.63.75.98 1 1 20849 20200323023348
+66.102.8.249 0 1 664 
+50.63.197.174 2 2 13593 20200304104802
+5.183.252.37 1 1 18402 20200311001234
+58.242.194.173 1 1 18373 20200326170431
+62.210.83.78 2 2 36820 20200317090830
+148.72.232.92 1 1 416 20200310110904
+64.233.172.104 1 19 2373993 20200304144719
+221.228.242.13 2 2 150375 20200323035316
+46.101.237.219 1 1 416 20200319143705
+188.143.169.29 2 2 150977 20200330062115
+5.199.143.112 2 2 36797 20200306003436
+195.154.189.205 3 3 154163 20200310010011
+101.91.62.89 0 1 39554 
+185.197.131.142 1 1 0 20200313060725
+60.166.74.8 1 1 18271 20200322215116
+158.69.225.33 3 3 226134 20200319224148
+138.219.140.2 3 64 998607 20200325033126
+212.92.122.196 2 2 38999 20200316190503
+91.121.79.16 2 2 150914 20200322115723
+59.52.185.72 0 1 39554 
+185.216.34.227 2 2 77188 20200325140828
+185.81.157.36 2 2 20148 20200331131019
+186.167.4.90 3 64 1006019 20200309142857
+194.135.87.87 1 1 416 20200319232030
+72.167.190.50 2 2 13124 20200326113119
+84.17.49.33 3 3 152582 20200315171157
+180.125.97.42 1 1 19010 20200327223411
+88.198.102.185 1 1 416 20200331163404
+77.222.61.130 2 2 13593 20200315010448
+114.98.160.127 1 1 18914 20200325110144
+183.69.198.56 1 1 20862 20200321113741
+67.220.187.99 1 1 416 20200331013450
+83.171.253.81 1 1 18381 20200328020435
+125.118.72.149 1 1 18203 20200327224219
+34.213.41.35 1 1 18399 20200315041439
+192.71.88.89 1 1 18399 20200301101235
+218.94.117.234 2 2 36808 20200313120443
+34.235.233.220 1 1 18380 20200330055912
+186.185.102.235 0 1 3028275 
+45.151.249.140 1 1 416 20200330224156
+64.233.172.195 1 1 18401 20200301202217
+93.188.2.5 1 1 416 20200318132148
+168.81.92.72 3 3 2505 20200316232959
+66.249.93.102 1 24 432046 20200304134631
+125.64.209.11 1 1 6045 20200327094146
+141.164.88.245 7 67 1067921 20200316233132
+137.226.113.27 1 1 18404 20200303154329
+212.92.106.116 2 2 38986 20200314063124
+103.9.170.160 1 1 416 20200312202311
+66.102.8.35 0 38 458569 
+66.249.93.104 1 24 2479352 20200304134632
+180.119.92.231 1 1 18395 20200318235037
+51.15.109.255 1 1 18393 20200304065913
+66.102.9.131 5 48 4888266 20200304144716
+199.244.88.131 3 3 55205 20200320000422
+182.244.169.150 1 1 20991 20200329174011
+42.236.10.125 0 25 369869 
+185.242.161.15 1 1 416 20200316222159
+182.50.132.85 1 1 416 20200322224413
+85.208.23.32 1 1 17299 20200318120855
+54.212.76.63 1 1 18418 20200317040641
+66.249.93.222 0 4 20604 
+111.14.11.60 0 1 231471 
+34.68.157.74 1 1 18377 20200331233056
+117.64.237.72 1 1 20712 20200322105619
+103.115.9.34 1 1 416 20200322233625
+218.249.232.178 2 2 13593 20200312114945
+62.210.177.221 2 2 518 20200331175033
+193.168.193.184 1 1 416 20200321014958
+115.151.215.29 1 1 18388 20200322105641
+106.57.151.169 1 1 20819 20200326052310
+115.239.26.161 0 1 205847 
+72.14.199.92 0 1 868 
+60.185.73.177 1 1 18314 20200321214834
+18.237.4.229 1 1 18368 20200325200121
+54.187.153.243 1 1 18381 20200330002130
+36.56.175.188 1 1 18102 20200326093919
+176.53.65.171 1 1 416 20200328134847
+113.122.132.35 1 1 18942 20200323212035
+64.233.172.198 0 1 1204 
+60.185.76.244 1 1 21249 20200331035202
+223.98.218.7 0 1 206574 
+120.14.16.229 1 1 17646 20200330081001
+115.208.78.169 1 1 23153 20200327152332
+60.185.68.122 1 1 21213 20200328195028
+42.236.10.114 1 6 251949 20200323125231
+49.82.120.123 1 1 18262 20200330002024
+151.80.47.23 2 2 77100 20200301180950
+199.188.206.50 1 1 416 20200321220203
+175.165.231.70 1 1 20827 20200330030422
+221.193.248.52 2 2 13593 20200303094506
+51.77.129.159 2 61 986006 20200322234101
+119.185.235.15 1 1 17665 20200325182158
+182.109.89.141 1 1 18957 20200325151923
+188.163.104.142 5 5 46285 20200325111058
+106.6.202.155 1 1 19061 20200321110545
+52.12.218.235 1 1 18408 20200305090359
+84.17.47.38 3 3 152620 20200331115802
+66.102.8.40 2 50 988863 20200304213359
+138.246.253.15 2 2 0 20200326162728
+66.102.9.136 3 41 817480 20200304144654
+45.152.32.21 6 35 627814 20200307084529
+66.249.93.213 0 3 20438 
+185.132.177.136 3 3 152532 20200314180207
+173.208.246.146 1 1 416 20200331102652
+104.168.182.234 2 2 37083 20200326203445
+104.168.34.149 2 2 77139 20200306230725
+178.162.210.137 7 7 47059 20200303002348
+185.246.210.185 2 2 42884 20200315160907
+198.71.227.12 1 1 416 20200329105243
+27.40.93.32 0 1 36070 
+183.165.61.185 0 1 268670 
+212.92.123.222 2 2 77100 20200319061938
+138.68.237.166 1 1 95763 20200328005305
+89.252.180.206 1 1 416 20200330124229
+222.220.153.234 1 1 20753 20200329223408
+137.226.113.34 1 58 968704 20200303230616
+178.162.209.70 3 3 152531 20200312090829
+88.99.75.14 2 2 13593 20200324234626
+171.14.82.119 1 1 17670 20200324200253
+66.102.8.49 1 23 235665 20200326165147
+58.54.26.168 0 1 15173 
+35.159.16.14 1 1 252 20200312035711
+66.102.8.47 1 19 183096 20200326165143
+123.245.25.161 1 1 18396 20200321083444
+201.214.118.133 2 64 3192986 20200328145528
+112.113.155.245 1 1 20869 20200324160158
+64.233.172.102 3 24 282805 20200304144716
+82.118.240.146 2 62 987216 20200325114613
+148.66.147.20 1 1 416 20200328182821
+89.238.154.169 2 2 77108 20200315144526
+203.147.72.240 6 6 43878 20200323035851
+190.4.191.65 6 67 1042232 20200309142652
+72.14.199.93 0 5 22168 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20200301 134 756 27772174 21
+20200302 377 585 15486176 16
+20200303 300 448 11220984 17
+20200304 1217 2356 72227470 27
+20200305 636 1216 34256753 16
+20200306 138 212 21266595 19
+20200307 30 59 627814 8
+20200308 60 251 8453119 16
+20200309 125 481 14859388 14
+20200310 224 413 10869081 17
+20200311 63 68 1833609 14
+20200312 49 49 2081214 16
+20200313 44 44 116253 16
+20200314 33 92 4104382 11
+20200315 253 488 14571732 18
+20200316 68 128 1610950 15
+20200317 311 1055 30328932 18
+20200318 307 570 17286837 17
+20200319 50 50 746829 14
+20200320 49 52 618509 13
+20200321 70 70 786602 20
+20200322 74 133 1833957 21
+20200323 303 886 19926684 40
+20200324 288 898 27637440 22
+20200325 656 1162 19916310 22
+20200326 124 317 8939555 25
+20200327 30 32 586815 16
+20200328 57 243 8113288 25
+20200329 560 1287 33385472 25
+20200330 102 276 9147795 24
+20200331 112 202 5861563 30
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+15mn-30mn 24
+5mn-15mn 27
+2mn-5mn 24
+30s-2mn 19
+0s-30s 363
+30mn-1h 43
+1h+ 93
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 124
+/wp-cron.php 2132 0 209 194
+/wp-admin/admin-ajax.php 1044 255428 5 17
+/ 917 17857296 194 147
+/cotizacionPDF.php 463 23218485 0 11
+/resultados/ 443 17228821 6 17
+/home/ 441 20942744 7 12
+/wp-login.php 299 1634949 32 30
+/xmlrpc.php 163 294581 32 32
+/login/ 129 3774867 2 8
+/wp-admin/ 83 9614621 2 1
+/wp-admin/admin.php 74 6556510 0 0
+/resultados.php 72 17380 0 1
+/wp-admin/load-scripts.php 49 2379328 0 0
+/enviarCorreo.php 49 9922 1 5
+/wp-admin/plugins.php 39 3266899 0 0
+/contactanos/ 31 2152430 20 1
+/home 27 727331 0 0
+/wp-json/contact-form-7/v1/contact-forms/597/feedback 24 2616 0 24
+/login 20 567353 0 1
+/wp-admin/options-general.php 16 1407292 0 0
+/wp-admin/edit.php 14 1389259 0 0
+/photo-news-catalogs-and-clients-feedback/ 13 278861 3 5
+/wp-admin/profile.php 13 970391 0 0
+/wp-admin/load-styles.php 13 947021 0 0
+/wp-admin/post.php 12 3368690 0 0
+/flood-insurance-in-the-standard-market-pt-2/ 3 126924 2 2
+/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/fonts/icons.woff2 10 68110 0 0
+/services/asegura-tu-salud-y-tu-visado-de-estudios/ 3 56950 1 2
+/all-posts/ 3 63694 2 2
+/2017/07/12/ 1 18850 0 0
+/services/ideal-para-personas-mayores-de-70-anos/ 2 38114 1 2
+/2017/07/31/ 1 18776 0 0
+/tag/insurance/ 2 41737 1 1
+/services/online-services/ 1 18914 1 1
+/wp-json/wp/v2/users/ 4 1036 3 3
+/wp-admin/install.php 1 570 1 1
+/we-work-to-provide-te-most-secure-service/ 3 62594 2 2
+/services_group/seguro-de-salud-libre-eleccion-medica/ 2 35117 2 2
+/tag/home/ 3 189250 0 0
+/avoid-risen-rates-for-car-insurance/ 3 62441 2 2
+/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/fonts/lato-regular-webfont.woff 2 64776 0 0
+/services/account-and-technical-help/ 1 19010 1 1
+/2017/07/ 1 20435 0 0
+/author/orianaq0/ 7 223379 3 6
+/conocenos/ 9 281299 2 2
+/wp-admin/tools.php 3 874079 0 0
+/new-families-and-unpredictable-risks/ 6 125072 2 4
+/wp-links-opml.php 4 1252 4 4
+/wp-includes/wlwmanifest.xml 4 2425 1 1
+/services/page/2/ 1 18856 1 1
+/photo-news-catalogs-and-clients-feedback/feed/ 2 1304 0 0
+/services_group/seguro-para-mayores/ 3 52386 3 2
+/wp-admin/edit-comments.php 1 99983 0 0
+/2017/07/24/ 1 18625 0 0
+/wp-json/siteground-optimizer/v1/enable-option 1 97 0 0
+/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/fonts/lato-bold-webfont.woff 2 64598 0 0
+/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.woff 9 75328 0 0
+/wp-content/plugins/js_composer/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.ttf 3 10008 0 0
+/retirement-is-a-happy-time-our-new-program/ 2 41528 1 1
+/blog-classic-3-columns/ 5 228151 0 1
+/services/contact-us/ 1 18935 1 1
+/2017/07/08/ 1 18406 0 0
+/wp-json/contact-form-7/v1/contact-forms/597/refill 2 4 0 1
+/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/fonts/fontawesome-webfont.woff2 3 231484 0 0
+/seguros/ 11 332702 4 2
+/politica-de-cookies/ 2 37404 0 1
+/the-toughest-job-in-insurance-business/ 1 20596 0 0
+/category/forms-filling/ 3 54814 2 2
+/wp-content/plugins/w3-total-cache/pub/fonts/w3tc.woff 10 9868 0 0
+/login.php 10 1416 1 1
+/photo-news-catalogs-and-clients-feedback/post-6/ 2 39203 0 0
+/2017/07/16/ 1 18382 0 0
+/wp-json/siteground-optimizer/v1/disable-option 2 150 0 0
+/10-life-insurance-benefits-to-make-it-worth-living/ 1 20836 0 0
+/wp-json/siteground-optimizer/v1/purge-cache 6 96 0 0
+/how-insta-bragging-could-soon-invalidate-your-insurance/ 3 62679 2 2
+/wp-json/ 2 72432 0 0
+/tag/policy/ 3 62530 2 2
+/category/support-policies/ 1 18895 0 0
+/wp-json/oembed/1.0/embed 6 6606 0 1
+/category/privacy-security/ 2 36630 1 1
+/feed/ 2 6998 0 0
+/blog/ 6 233471 3 0
+/save-money-with-the-latest-technologies/ 1 20832 0 0
+/counsel-of-protection-the-coming-revolution-in-insurance/ 3 62114 2 2
+/search/.env 1 16741 1 1
+/wp-json/siteground-optimizer/v1/fetch-options 10 21572 0 0
+/services_group/customer-services/ 2 35316 2 2
+/we-are-there-for-you-and-your-beloved-ones/ 1 20836 0 0
+/wp-admin/plugin-install.php 3 263738 0 0
+/category/blog/page/2/ 1 19103 0 0
+/2017/06/ 1 20794 0 0
+/electric-cars-will-cost-45-more-to-insure/ 1 20789 0 0
+/tag/account/ 1 19301 0 0
+/services/delight 1 505 1 1
+/category/blog/ 5 265871 2 4
+/services/contrata-tus-seguros/ 1 18957 1 1
+/wp-load.php 1 0 1 1
+/services/aclara/ 1 18916 1 1
+/search-20000-insurance-markets-by-coverage-or-class/ 3 63030 2 2
+/business-related-issues-and-insurance-policies/ 2 41661 1 1
+/2017/07/18/ 1 18834 0 0
+/category/finance-accounts/ 2 37095 1 1
+/mas-informacion-sobre-las-cookies/ 1 19563 0 0
+/team/sandra-walsh/ 1 18102 1 1
+/wp-json/siteground-optimizer/v1/disable-memcache 3 198 0 0
+/services_group/seguros-para-estudiantes/ 3 52475 2 2
+/services/ 1 18388 1 1
+/wp-json/wp/v2/users 2 824 1 1
+/category/tips-facts/ 2 37978 1 1
+/services/lead/ 1 18904 1 1
+/2017/ 1 21243 0 0
+/wp-admin/index.php 2 221609 0 0
+/services/strategize/ 1 18942 1 1
+/services/billing-and-payment-help/ 1 18951 1 1
+/tag/car/ 2 38602 1 1
+/wp-json/siteground-optimizer/v1/run-analysis 1 8369 0 0
+/services_group/find-your-career/ 1 17665 1 1
+/2017/07/20/ 1 18847 0 0
+/services_group/why-people-choose-us/ 2 35190 2 2
+/2017/07/28/ 1 18815 0 0
+/2017/07/04/ 1 18972 0 0
+/tag/family/ 1 19217 0 0
+/wp-json/siteground-optimizer/v1/enable-memcache 3 286 0 0
+END_SIDER

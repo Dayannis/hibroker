@@ -1,0 +1,81 @@
+body{
+font-family:Verdana;
+padding:0px;
+margin:0px;
+
+}
+
+.title{
+	font-family:Verdana;	font-weight:bold;
+	font-size:30px;
+	text-align:center;
+}
+
+.subtitle1{
+	font-family:Verdana;
+	font-weight:bold;
+	font-size:18px;
+	text-align:center;
+}
+
+.subtitle{
+	font-family:Verdana;
+	font-size:18px;
+	text-align:center;
+}
+
+.border{
+	width:100%;
+	padding:10px;
+	border:2px solid #A9D0F5;
+	border-radius:0px 100px 10px 0px;
+	background:#A9D0F5;
+}
+
+table{
+font-size:14px;
+}
+
+tr,td{
+	padding:2px;
+	border:2px solid #ccc;	
+}
+hr{
+	color:#ccc;
+}
+.encabezado{
+	background:;
+	border:1px solid #000;
+}
+
+.img-redonda{
+
+	border-radius: 30px  30px 30px 30px ;
+
+}
+
+.foo{
+	text-align: center;
+}
+
+.firmas{
+padding:2px;
+}
+
+.derecha{
+	float:right;
+
+}
+
+.izquierda{
+	float:left;
+}
+
+.presentation{
+
+	font-weight: bold;
+	font-size:20px;
+	text-align:center;
+
+
+}

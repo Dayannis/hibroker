@@ -1,0 +1,39 @@
+Version 1.1.1
+    	Added:
+    		- Compatibility with WP 5.0.3
+    		- Compatibility with PHP7.2
+            - Alert to Demo data installation
+            - Privacy Policy page
+
+        Fixed:
+            - Compatibility with Gutenberg
+            - Update plugins to their latest versions
+            - Improve theme styles
+            - Scripts libraries updated
+
+        Changed:
+            - Update default contact forms to make them GDPR-compliant
+    		- Update demo data
+
+
+Version 1.1.0
+    WordPress Version 4.9.4 ready
+    Compatibility with PHP7.1.x
+    Updated Visual Composer Extensions All In One to its latest version
+    Updated Revolution Slider to its latest version
+    Updated Visual Composer to its latest version
+    Updated Essential Grid to its latest version
+    Updated Contact Form 7 to its latest version
+    Updated demo data
+    Fixed TRXAddons
+    Fixed Contact Form 7 Datepicker
+    Fixed shortcode Visual Composer in PHP7.1.x
+    Fixed WooCommerce 3.3.x
+    Fixed Imports
+    Added new CSS styles
+
+
+Version 1.0
+	Release
+
+

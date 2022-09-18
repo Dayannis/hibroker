@@ -1,0 +1,12 @@
+[29-Mar-2022 11:14:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_ID() in /home/customer/www/hi-broker.com/public_html/wp-content/themes/twentyseventeen/template-parts/post/content-video.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/hi-broker.com/public_html/wp-content/themes/twentyseventeen/template-parts/post/content-video.php on line 15
+[29-Mar-2022 12:40:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _e() in /home/customer/www/hi-broker.com/public_html/wp-content/themes/twentyseventeen/template-parts/post/content-none.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/hi-broker.com/public_html/wp-content/themes/twentyseventeen/template-parts/post/content-none.php on line 17
+[29-Mar-2022 13:21:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_ID() in /home/customer/www/hi-broker.com/public_html/wp-content/themes/twentyseventeen/template-parts/post/content-audio.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/hi-broker.com/public_html/wp-content/themes/twentyseventeen/template-parts/post/content-audio.php on line 15

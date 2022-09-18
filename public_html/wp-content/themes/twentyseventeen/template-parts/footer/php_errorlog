@@ -1,0 +1,4 @@
+[29-Mar-2022 14:57:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_active_sidebar() in /home/customer/www/hi-broker.com/public_html/wp-content/themes/twentyseventeen/template-parts/footer/footer-widgets.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/hi-broker.com/public_html/wp-content/themes/twentyseventeen/template-parts/footer/footer-widgets.php on line 14

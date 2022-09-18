@@ -1,0 +1,4 @@
+[21-Sep-2021 10:46:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/customer/www/hi-broker.com/public_html/wp-content/themes/twentytwentyone/404.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/hi-broker.com/public_html/wp-content/themes/twentytwentyone/404.php on line 12

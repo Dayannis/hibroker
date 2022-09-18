@@ -1,0 +1,4 @@
+[02-Sep-2019 05:56:33 CST6CDT] PHP Fatal error:  Uncaught DOMPDF_Exception: An input file is required (i.e. input_file _GET variable). in /home/orianaq0/public_html/dompdf/dompdf.php:199
+Stack trace:
+#0 {main}
+  thrown in /home/orianaq0/public_html/dompdf/dompdf.php on line 199

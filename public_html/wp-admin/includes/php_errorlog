@@ -1,0 +1,12 @@
+[29-Oct-2021 03:58:35 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Filesystem_Base' not found in /home/customer/www/hi-broker.com/public_html/wp-admin/includes/class-wp-filesystem-ftpsockets.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/hi-broker.com/public_html/wp-admin/includes/class-wp-filesystem-ftpsockets.php on line 16
+[29-Oct-2021 06:42:34 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_List_Table' not found in /home/customer/www/hi-broker.com/public_html/wp-admin/includes/class-wp-comments-list-table.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/hi-broker.com/public_html/wp-admin/includes/class-wp-comments-list-table.php on line 18
+[29-Oct-2021 08:05:57 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Privacy_Data_Export_Requests_List_Table' not found in /home/customer/www/hi-broker.com/public_html/wp-admin/includes/deprecated.php:1526
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/hi-broker.com/public_html/wp-admin/includes/deprecated.php on line 1526

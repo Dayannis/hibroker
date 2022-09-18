@@ -1,0 +1,28 @@
+[30-May-2020 20:32:40 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home/orianaq0/public_html/wp-content/themes/twentynineteen/functions.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/orianaq0/public_html/wp-content/themes/twentynineteen/functions.php on line 16
+[30-May-2020 20:33:11 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home/orianaq0/public_html/wp-content/themes/twentynineteen/functions.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/orianaq0/public_html/wp-content/themes/twentynineteen/functions.php on line 16
+[05-Jun-2020 03:31:13 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home/orianaq0/public_html/wp-content/themes/twentynineteen/functions.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/orianaq0/public_html/wp-content/themes/twentynineteen/functions.php on line 16
+[25-Jun-2021 22:49:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/customer/www/hi-broker.com/public_html/wp-content/themes/twentynineteen/404.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/hi-broker.com/public_html/wp-content/themes/twentynineteen/404.php on line 12
+[25-Jun-2021 22:49:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/customer/www/hi-broker.com/public_html/wp-content/themes/twentynineteen/404.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/hi-broker.com/public_html/wp-content/themes/twentynineteen/404.php on line 12
+[29-Nov-2021 05:20:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/customer/www/hi-broker.com/public_html/wp-content/themes/twentynineteen/404.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/hi-broker.com/public_html/wp-content/themes/twentynineteen/404.php on line 12
+[30-Jan-2022 11:45:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/customer/www/hi-broker.com/public_html/wp-content/themes/twentynineteen/404.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/hi-broker.com/public_html/wp-content/themes/twentynineteen/404.php on line 12

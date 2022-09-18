@@ -1,0 +1,64 @@
+
+#output_quote_form_result {
+	padding: 20px 0;
+    background: white;
+    transition: opacity 500ms ease-out, height 500ms ease;
+}
+
+#output_quote_form_result button {
+	position: relative;
+	left:50%;
+	transform: translateX(-50%);
+}
+
+#output_quote_form_result h5 {
+	text-align: center;
+}
+
+#output_quote_form_result.closed {
+	height: 0 !important;
+	opacity: 0;
+    z-index:-1;
+}
+
+.button-sol {
+	color: #ffffff !important;
+	background-color: #51D11A !important;
+	text-transform: none;
+	padding: 6px 28px !important;
+	border-radius: 10px !important;
+}
+
+.sol{
+	background-image:url(http://hi-broker.com/assets/icons/checkmark_45px.png);
+}
+
+@media only screen and (min-device-width: 480px){
+
+	#output_quote_form_result {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		max-height: 100%;
+		z-index: 10;
+	}
+
+	#output_quote_form_result h5 {
+		padding: 0 20%;
+	}
+
+	#output_quote_form_result #table-container {
+		padding: 0 10%;
+		margin-bottom: 20px;
+		overflow: auto;
+		max-height: 80%;
+	}
+}
+
+@media only screen and (max-device-width: 480px){
+	#output_quote_form_result h5 {
+		padding: 0 10%;
+	}
+}

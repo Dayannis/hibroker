@@ -1,0 +1,72 @@
+[15-Nov-2019 23:38:33 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/orianaq0/public_html/wp-content/themes/shieldgroup/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/orianaq0/public_html/wp-content/themes/shieldgroup/404.php on line 10
+[17-Nov-2019 19:42:05 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/orianaq0/public_html/wp-content/themes/shieldgroup/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/orianaq0/public_html/wp-content/themes/shieldgroup/404.php on line 10
+[13-Dec-2019 01:39:08 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/orianaq0/public_html/wp-content/themes/shieldgroup/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/orianaq0/public_html/wp-content/themes/shieldgroup/404.php on line 10
+[15-Dec-2019 02:01:53 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/orianaq0/public_html/wp-content/themes/shieldgroup/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/orianaq0/public_html/wp-content/themes/shieldgroup/404.php on line 10
+[11-Jan-2020 16:08:04 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/orianaq0/public_html/wp-content/themes/shieldgroup/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/orianaq0/public_html/wp-content/themes/shieldgroup/404.php on line 10
+[14-Jan-2020 15:47:10 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/orianaq0/public_html/wp-content/themes/shieldgroup/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/orianaq0/public_html/wp-content/themes/shieldgroup/404.php on line 10
+[17-Apr-2020 01:43:41 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/orianaq0/public_html/wp-content/themes/shieldgroup/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/orianaq0/public_html/wp-content/themes/shieldgroup/404.php on line 10
+[24-Apr-2020 21:01:36 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/orianaq0/public_html/wp-content/themes/shieldgroup/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/orianaq0/public_html/wp-content/themes/shieldgroup/404.php on line 10
+[25-Aug-2020 11:46:57 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function shieldgroup_get_theme_option() in /home/orianaq0/public_html/wp-content/themes/shieldgroup/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/orianaq0/public_html/wp-content/themes/shieldgroup/index.php on line 15
+[27-Sep-2020 21:31:54 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function shieldgroup_get_theme_option() in /home/orianaq0/public_html/wp-content/themes/shieldgroup/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/orianaq0/public_html/wp-content/themes/shieldgroup/index.php on line 15
+[29-Oct-2020 15:45:13 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function shieldgroup_get_theme_option() in /home/orianaq0/public_html/wp-content/themes/shieldgroup/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/orianaq0/public_html/wp-content/themes/shieldgroup/index.php on line 15
+[04-Dec-2020 23:28:49 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function shieldgroup_get_theme_option() in /home/orianaq0/public_html/wp-content/themes/shieldgroup/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/orianaq0/public_html/wp-content/themes/shieldgroup/index.php on line 15
+[18-Jan-2021 01:24:52 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function shieldgroup_get_theme_option() in /home/orianaq0/public_html/wp-content/themes/shieldgroup/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/orianaq0/public_html/wp-content/themes/shieldgroup/index.php on line 15
+[19-Feb-2021 13:54:18 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function shieldgroup_get_theme_option() in /home/orianaq0/public_html/wp-content/themes/shieldgroup/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/orianaq0/public_html/wp-content/themes/shieldgroup/index.php on line 15
+[22-May-2021 22:44:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/customer/www/hi-broker.com/public_html/wp-content/themes/shieldgroup/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/hi-broker.com/public_html/wp-content/themes/shieldgroup/404.php on line 10
+[15-Dec-2021 13:55:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function shieldgroup_get_theme_option() in /home/customer/www/hi-broker.com/public_html/wp-content/themes/shieldgroup/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/hi-broker.com/public_html/wp-content/themes/shieldgroup/index.php on line 15
+[15-Dec-2021 13:55:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/customer/www/hi-broker.com/public_html/wp-content/themes/shieldgroup/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/hi-broker.com/public_html/wp-content/themes/shieldgroup/404.php on line 10
+[15-Dec-2021 13:55:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/customer/www/hi-broker.com/public_html/wp-content/themes/shieldgroup/header.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/hi-broker.com/public_html/wp-content/themes/shieldgroup/header.php on line 10

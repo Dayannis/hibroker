@@ -1,0 +1,12 @@
+[20-Feb-2021 13:30:38 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/orianaq0/public_html/wp-content/themes/twentysixteen/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/orianaq0/public_html/wp-content/themes/twentysixteen/404.php on line 10
+[20-Feb-2021 13:30:42 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/orianaq0/public_html/wp-content/themes/twentysixteen/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/orianaq0/public_html/wp-content/themes/twentysixteen/404.php on line 10
+[21-Feb-2021 06:38:13 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/orianaq0/public_html/wp-content/themes/twentysixteen/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/orianaq0/public_html/wp-content/themes/twentysixteen/404.php on line 10

@@ -1,0 +1,328 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 202005 will be lost/reset.
+# Last config file used to build this data file was /home/orianaq0/tmp/awstats/ssl/awstats.hi-broker.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2014                
+POS_TIME 2686                
+POS_VISITOR 7072                
+POS_DAY 7699                
+POS_DOMAIN 3260                
+POS_LOGIN 3531                
+POS_ROBOT 3686                
+POS_WORMS 3929                
+POS_EMAILSENDER 4060                
+POS_EMAILRECEIVER 4203                
+POS_SESSION 8230                
+POS_SIDER 8420                
+POS_FILETYPES 4338                
+POS_DOWNLOADS 4501                
+POS_OS 4549                
+POS_BROWSER 4669                
+POS_SCREENSIZE 4873                
+POS_UNKNOWNREFERER 4947                
+POS_UNKNOWNREFERERBROWSER 5289                
+POS_ORIGIN 5512                
+POS_SEREFERRALS 5646                
+POS_PAGEREFS 5790                
+POS_SEARCHWORDS 5969                
+POS_KEYWORDS 6121                
+POS_MISC 2350                
+POS_ERRORS 6180                
+POS_CLUSTER 3387                
+POS_SIDER_404 6288                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200602100052 1 0 15616936844752
+FirstTime 20200501024532
+LastTime 20200531142231
+LastUpdate 20200602104017 1 0 0 0 0
+TotalVisits 55                  
+TotalUnique 14                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 14                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+TotalMisc 0 0 0
+FlashSupport 0 0 0
+JavaEnabled 0 0 0
+AddToFavourites 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 2 0 3 3 2
+1 2 2 0 2 2 0
+2 11 11 206990 7 8 347882
+3 0 0 0 0 0 0
+4 4 4 151588 6 6 272479
+5 2 2 0 2 2 0
+6 3 3 18363 3 3 2
+7 5 5 18380 3 3 150702
+8 5 5 151622 7 7 366132
+9 0 0 0 0 0 0
+10 1 1 0 1 1 75351
+11 2 2 0 3 3 75385
+12 1 1 0 2 2 2
+13 5 5 18366 24 25 1661666
+14 3 3 18465 3 3 0
+15 5 62 968687 4 4 76314
+16 7 7 18378 4 6 18421
+17 0 0 0 0 0 0
+18 0 0 0 0 0 0
+19 6 6 151624 6 7 290840
+20 0 0 0 0 0 0
+21 0 0 0 0 0 0
+22 1 1 0 1 1 0
+23 0 0 0 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 4
+us 54 54 376883
+de 7 64 1042368
+cn 2 2 151588
+ua 2 2 151624
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+bot[\s_+:,\.\;\/\\-] 8 603831 20200529154715 0
+robot 6 55064 20200521165953 3
+googlebot 2 134 20200517021221 2
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+css 25 607416 0 0
+js 27 272861 0 0
+jpg 2 30029 0 0
+php 46 0 0 0
+html 19 772143 0 0
+png 3 40014 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 5
+winnt 9 9
+linux 58 1
+win7 2 2
+Unknown 51 51
+macosx 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 8
+firefox50.0 58 1
+chrome76.0.3809.132 1 1
+chrome58.0.3029.110 1 1
+mozilla 3 3
+chrome79.0.3945.130 1 1
+Unknown 48 48
+chrome40.0.2214.85 2 2
+firefox57.0 8 8
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t13rl;__http://researchscan.comsys.rwth-aachen.de) 20200531142231
+WordPress/5.3.2;_https://hi-broker.com 20200531140853
+Go-http-client/1.1 20200530021847
+WordPress/5.3.2;_http://hi-broker.com 20200516124628
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+WordPress/5.3.2;_https://hi-broker.com 20200531140853
+Go-http-client/1.1 20200530021847
+WordPress/5.3.2;_http://hi-broker.com 20200516124628
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 16 73
+From1 0 0
+From2 0 0
+From3 3 3
+From4 46 46
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://35.214.253.240:443 3 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+400 6 6
+301 25 0
+404 39 2676143
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 27
+/my.php 1 -
+/MySQL.php 1 -
+/navicat_tunnel.php 1 -
+/c.php 1 -
+/tun.php 1 -
+/ntunnel_mysqli.php 1 -
+/horde/imp/test.php 4 -
+/tunnel.php 1 -
+/test.php 1 -
+/tunn.php 1 -
+/api.php 1 -
+/database.php 1 -
+/connect.php 1 -
+/conn.php 1 -
+/db2.php 1 -
+/phpmyadmin/scripts/setup.php 4 -
+/db.php 1 -
+/ntunnel_mysql.php 1 -
+/navicat.php 1 -
+/mysqli.php 1 -
+/sql.php 1 -
+/phpMyAdmin/scripts/setup.php 4 -
+/mysql.php 1 -
+/base.php 1 -
+/Tunnel.php 1 -
+/cgi-bin/test-cgi 4 -
+/MySQLi.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 14
+35.214.253.240 46 46 0 20200531140853
+132.145.101.73 2 2 151609 20200518025043
+95.216.214.12 2 2 151624 20200520193642
+122.51.100.181 2 2 151588 20200518043036
+150.136.227.32 2 2 151622 20200517084254
+137.226.113.27 2 2 36843 20200531142231
+138.246.253.15 2 2 0 20200513193633
+137.226.113.28 1 1 18458 20200525023019
+137.226.113.21 1 58 968687 20200524154400
+159.138.245.62 1 1 18363 20200504060613
+188.138.75.77 1 1 18380 20200506072645
+52.13.81.164 1 1 18467 20200530021847
+35.164.235.49 1 1 18366 20200514131336
+54.213.32.110 1 1 18456 20200529021729
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 25
+20200501 2 2 0 2
+20200502 4 4 0 4
+20200503 1 1 0 1
+20200504 3 3 18363 3
+20200505 3 3 0 2
+20200506 4 4 18380 4
+20200507 1 1 0 1
+20200508 2 2 0 2
+20200510 1 1 0 1
+20200512 1 1 0 1
+20200513 2 2 0 2
+20200514 1 1 18366 1
+20200515 1 1 0 1
+20200516 1 1 0 1
+20200517 7 7 170000 5
+20200518 6 6 303197 4
+20200520 5 5 151624 3
+20200521 1 1 0 1
+20200524 4 61 968687 3
+20200525 2 2 18458 2
+20200526 2 2 0 2
+20200527 2 2 0 1
+20200529 3 3 18456 3
+20200530 4 4 18467 3
+20200531 2 2 18465 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+30mn-1h 1
+5mn-15mn 2
+30s-2mn 1
+0s-30s 50
+15mn-30mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 3
+/wp-cron.php 46 0 40 40
+/ 15 467821 15 11
+/login/ 4 304322 0 4
+END_SIDER

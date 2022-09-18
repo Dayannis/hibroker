@@ -1,0 +1,39 @@
+.cotizacion{
+	text-align: center; 
+	font-weight: bold;  
+	margin: 0; 
+	padding: 5px;
+}
+
+.cot-numero{
+	background-color:#b1cbff;
+	color: black;
+}
+
+.cot-detalle{
+	background-color: #f1f1f1; 
+}
+
+.cot-producto{
+	background-color:#214285; 
+	color: white; 
+}
+
+.cot-mensual{
+	background-color: #f1f1f1; 
+}
+
+.cot-icons{
+	margin:0px;
+}
+
+@media (max-width: 768px) {
+  .items-nav{
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .steps{
+    display: none;
+  }
+}

@@ -1,0 +1,20 @@
+[30-Jul-2020 15:05:11 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'IXR_Server' not found in /home/orianaq0/public_html/wp-includes/class-wp-xmlrpc-server.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/orianaq0/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[30-Jul-2020 15:05:15 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'IXR_Server' not found in /home/orianaq0/public_html/wp-includes/class-wp-xmlrpc-server.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/orianaq0/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[30-Jul-2020 21:26:11 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home/orianaq0/public_html/wp-includes/update.php:813
+Stack trace:
+#0 {main}
+  thrown in /home/orianaq0/public_html/wp-includes/update.php on line 813
+[31-Jul-2020 10:42:18 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'IXR_Server' not found in /home/orianaq0/public_html/wp-includes/class-wp-xmlrpc-server.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/orianaq0/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[31-Jul-2020 10:42:22 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'IXR_Server' not found in /home/orianaq0/public_html/wp-includes/class-wp-xmlrpc-server.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/orianaq0/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
